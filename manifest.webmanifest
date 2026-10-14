@@ -1,6 +1,6 @@
 {
-  "name": "TOP 000 — Brave Heart Operations",
-  "short_name": "TOP 000",
+  "name": "TOP 2000 — Eagle Operations",
+  "short_name": "TOP 2000",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f7f8fa",
@@ -13,6 +13,6 @@
       "purpose": "any"
     }
   ],
-  "description": "Brave Heart TOP 000 operational schedule",
+  "description": "Eagle operational schedule",
   "scope": "./"
 }
