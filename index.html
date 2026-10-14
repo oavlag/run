@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f6f7f9">
+  <meta name="description" content="TOP 000 — Brave Heart event command center and operational schedule.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="TOP 000">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>TOP 000 — Brave Heart | Operations</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon.svg">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body data-theme="dark">
+<div id="boot" class="boot"><div class="boot-in"><div class="boot-logo">T<span>0</span></div><p>TOP 000</p><div class="boot-spinner"></div></div></div>
+<div class="app-shell">
+  <aside class="sidebar" aria-label="Primary navigation">
+    <div class="sidebar-head">
+      <div class="brand-symbol" aria-hidden="true"><span class="brand-glyph">T</span><span class="brand-spark"></span></div>
+      <div class="brand-name"><strong>TOP <span>000</span></strong><small>BRAVE HEART</small></div>
+    </div>
+    <div class="sidebar-section-label">WORKSPACE</div>
+    <nav class="side-links" aria-label="Sections">
+      <a href="#overview" class="side-link active"><span class="side-icon">◫</span>Overview</a>
+      <a href="#schedule" class="side-link"><span class="side-icon">▤</span>Schedule</a>
+      <a href="#reference" class="side-link"><span class="side-icon">▧</span>Reference</a>
+      <button id="sidebarSetBtn" type="button" class="side-link"><span class="side-icon">⚙</span>Settings</button>
+    </nav>
+    <div class="sidebar-foot">
+      <div class="sidebar-event"><span class="mini-orb"></span><span><strong>BRAVE HEART • RISE</strong><small>October 15–18, 2026</small></span></div>
+      <div class="sidebar-caption">Built for the team. Ready for the moment.</div>
+    </div>
+  </aside>
+
+  <div class="workspace">
+    <header class="topbar">
+      <div class="breadcrumb"><span>EVENT COMMAND CENTER</span><b>/</b><strong>TOP 000</strong></div>
+      <div class="top-actions">
+        <span id="syncPill" class="pill off" role="status" title="Saved on this device">Local only</span>
+        <button id="langBtn" class="icon-btn" aria-label="Language" hidden><span id="langLbl">EN</span></button>
+        <button id="nightBtn" class="icon-btn" title="Toggle appearance" aria-label="Toggle appearance" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.5A8.5 8.5 0 018.5 4 8.5 8.5 0 1020 15.5Z"/></svg></button>
+        <button id="setBtn" class="icon-btn settings-btn" title="Settings" aria-label="Settings"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="m19.4 15 .1.1 1.3 1-1.7 2.9-1.5-.6a8 8 0 0 1-1.8 1.1l-.2 1.6h-3.3l-.3-1.6a8 8 0 0 1-1.8-1.1l-1.5.6L7 16.1l1.3-1A8 8 0 0 1 8 13l-1.5-.8v-3.4L8 8a8 8 0 0 1 .3-2l-1.3-1L8.7 2l1.5.7A8 8 0 0 1 12 1.6l.3-1.6h3.3l.2 1.6a8 8 0 0 1 1.8 1l1.5-.6 1.7 2.9-1.3 1A8 8 0 0 1 19.4 8l1.5.8v3.4l-1.5.8a8 8 0 0 1 0 2Z" transform="translate(-1.4 1.5) scale(.9)"/></svg></button>
+      </div>
+    </header>
+
+    <main class="page">
+      <section id="overview" class="hero" aria-label="Event overview">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> BRAVE HEART <span class="eyebrow-slash">/</span> RISE 2026</div>
+          <h1>Every moment.<br><span>One mission.</span></h1>
+          <p class="hero-description" id="mastSub">Master Rundown</p>
+          <div class="hero-meta"><span><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 10h18"/></svg><span id="eventDates">October 15–18, 2026</span></span><span><svg viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span id="eventLocation">Charlotte, NC</span></span></div>
+        </div>
+        <div class="hero-art" aria-label="TOP 000 branding"><div class="hero-art-top">LEGENDÁRIOS <span>•</span> OPERATIONS</div><div class="hero-art-mid"><div class="hero-art-ring"><span>TOP</span><strong>000</strong></div></div><div class="hero-art-bottom">THE ROAD TO TRANSFORMATION <span>↗</span></div></div>
+      </section>
+
+      <section class="stats" aria-label="Schedule insights">
+        <div class="stat"><div class="stat-icon stat-orange">▤</div><div class="stat-info"><span>Total cues</span><strong id="statAll">—</strong><small>In the full rundown</small></div></div>
+        <div class="stat"><div class="stat-icon stat-blue">◷</div><div class="stat-info"><span>Showing now</span><strong id="statVisible">—</strong><small>After your filters</small></div></div>
+        <div class="stat"><div class="stat-icon stat-green">✓</div><div class="stat-info"><span>Completed</span><strong id="statDone">—</strong><small>Marked on this device</small></div></div>
+        <div class="stat"><div class="stat-icon stat-purple">▦</div><div class="stat-info"><span>Event days</span><strong id="statDays">4</strong><small>October 15–18</small></div></div>
+      </section>
+
+      <section id="schedule" class="schedule-section" aria-label="Schedule">
+        <div class="section-heading"><div><div class="section-kicker">YOUR PLAYBOOK</div><h2>Run of show<span class="heading-dot">.</span></h2><p>Stay aligned. Find your role. Keep every cue moving.</p></div><button type="button" id="quickNowBtn" class="outline-btn"><span class="now-btn-circle">●</span> Jump to current</button></div>
+        <div id="nowbar" class="nowbar" hidden><div class="nowbar-l"><span class="pulse"></span><div><small>LIVE EVENT TIMELINE</small><strong id="nowLabel">Loading event status…</strong></div></div><button id="nowBtn" class="nowjump">Go to cue <span>↗</span></button></div>
+        <div id="delaybar" class="delaybar" hidden></div>
+        <div class="filter-panel">
+          <div class="filter-heading"><div><span class="filter-title">Explore the schedule</span><span class="filter-subtitle">Filter by day, team or activity</span></div><button id="resetBtn" class="reset-btn" type="button">↻ <span>Reset filters</span></button></div>
+          <div class="filter-label">SELECT A DAY</div>
+          <div class="days" id="dayRow" role="group" aria-label="Filter by day"></div>
+          <div class="filter-fields"><label class="filter-field"><span>YOUR TEAM</span><select id="deptSel" class="sel" aria-label="Your team"></select></label><label class="filter-field"><span>MOMENT</span><select id="blockSel" class="sel" aria-label="Moment"></select></label></div>
+          <div class="filter-search"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="q" type="search" autocomplete="off" class="search" aria-label="Search schedule" placeholder="Search activities, leads or cue numbers…"></div>
+          <div class="modes" id="modeRow" hidden role="group" aria-label="My team mode"><button id="modeAll" class="chip mode" aria-pressed="true">Full schedule</button><button id="modeMine" class="chip mode" aria-pressed="false">Only my cues</button></div>
+          <details class="advanced-filters" id="advancedFilters"><summary><span>Additional filters <small>Filter by activity type</small></span><span class="summary-chevron">⌄</span></summary><div class="secs" id="secRow" role="group" aria-label="Activity types"></div></details>
+          <div class="filter-bottom"><span id="count" class="count">Loading schedule…</span><div class="progress-summary"><span id="progressText">0% complete</span><div class="progress-track"><div class="progress-fill" id="progressFill"></div></div></div></div>
+        </div>
+        <div id="csBanner" class="cs" hidden><div class="cs-graphic">↗</div><div><strong id="csTitle"></strong><span id="csSub"></span></div></div>
+        <div id="list" class="list" aria-live="polite"></div>
+        <div id="empty" class="empty" hidden><div class="empty-icon">⌕</div><h3>No cues found</h3><p>Try removing a filter or using a different search.</p></div>
+      </section>
+
+      <section id="reference" class="reference-section"><div class="section-heading reference-heading"><div><div class="section-kicker">FIELD NOTES</div><h2>Reference<span class="heading-dot">.</span></h2><p>Everything you need, all in one place.</p></div></div><div class="refs"><details id="glossBox"><summary>Glossary</summary><dl id="gloss"></dl></details><details id="notesBox"><summary>Notes</summary><ul id="notes"></ul></details><details id="keyBox"><summary>Team key</summary><div id="deptKey" class="deptkey"></div></details></div></section>
+      <footer class="foot"><div class="foot-brand">TOP <span>000</span> <span class="foot-divider">/</span> BRAVE HEART</div><p id="footTxt"></p><span>Built for the journey.</span></footer>
+    </main>
+  </div>
+</div>
+<nav class="mobile-nav" aria-label="Mobile navigation"><a href="#overview"><span>◫</span>Overview</a><a href="#schedule"><span>▤</span>Schedule</a><a href="#reference"><span>▧</span>Reference</a><button id="mobileSetBtn" type="button"><span>⚙</span>Settings</button></nav>
+<div id="sheet" class="sheet" hidden><div class="sheet-bg" data-close></div><div class="sheet-card" role="dialog" aria-modal="true" aria-labelledby="sheetTitle"><div class="sheet-hd"><div><small>PERSONALIZE YOUR VIEW</small><strong id="sheetTitle">Settings</strong></div><button class="icon-btn" data-close aria-label="Close settings">✕</button></div><label class="fld"><span id="lblMyDept">My team</span><select id="myDept" class="sel"></select></label><div class="fld"><span id="lblDelay">Running late</span><div class="delayctl" id="delayctl"><button data-delay="-15">−15</button><button data-delay="-5">−5</button><output id="delayVal">0</output><button data-delay="5">+5</button><button data-delay="15">+15</button><button data-delay="0" class="zero">Reset</button></div><p id="delayHint" class="hint"></p></div><div class="fld"><button id="clearDone" class="outline-btn wide">Clear all ticks</button></div><p id="verTxt" class="hint version-note"></p></div></div>
+<button id="installBtn" class="install" hidden>Add to home screen</button>
+<script src="config.js"></script><script src="app.js"></script>
+</body>
+</html>

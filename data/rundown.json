@@ -1,0 +1,4504 @@
+{
+  "event": {
+    "name": "BRAVE HEART TOP 000",
+    "rise": "RISE",
+    "location": "Charlotte, North Carolina",
+    "dates": {
+      "en": "October 15–18, 2026"
+    },
+    "timezone": "America/New_York",
+    "dayDates": {
+      "1": "2026-10-15",
+      "2": "2026-10-16",
+      "3": "2026-10-17",
+      "4": "2026-10-18"
+    },
+    "source": "V4 — TOP BRAVE HEART Rundown — TOP 000 (Corrected English)",
+    "version": "2026-10-13T12:32:34Z",
+    "revision": 4
+  },
+  "languages": [
+    "en"
+  ],
+  "ui": {
+    "en": {
+      "subtitle": "Master Rundown",
+      "all_days": "All days",
+      "all_depts": "All teams",
+      "all_moments": "All moments",
+      "search": "Search activity, lead, cue number…",
+      "shown": "shown",
+      "reset": "Reset",
+      "lead": "Team Lead",
+      "direction": "Direction",
+      "outcome": "Outcome",
+      "empty": "No cues match these filters.",
+      "cues": "cues",
+      "check": "Check this",
+      "done": "Done",
+      "glossary": "Glossary",
+      "notes": "Notes on the source file",
+      "deptkey": "Team key",
+      "delay": "Running late",
+      "delay_on": "Schedule shifted by",
+      "min": "min",
+      "offline": "Offline",
+      "synced": "Synced",
+      "next": "Next",
+      "starts_in": "starts in",
+      "ends_in": "ends in",
+      "settings": "Settings",
+      "mydept": "My team",
+      "clear_done": "Clear all ticks",
+      "now_btn": "Now",
+      "finished": "Event finished",
+      "not_started": "Event has not started",
+      "my_tasks": "My tasks",
+      "all_cues": "Full schedule",
+      "only_mine": "Only my cues",
+      "your_job": "Your job",
+      "team_tasks": "Team assignments",
+      "no_task": "No task assigned to your team on this cue.",
+      "mine_count": "with tasks for you"
+    }
+  },
+  "days": {
+    "1": {
+      "en": {
+        "label": "Day 1",
+        "date": "Thursday, October 15, 2026"
+      }
+    },
+    "2": {
+      "en": {
+        "label": "Day 2",
+        "date": "Friday, October 16, 2026"
+      }
+    },
+    "3": {
+      "en": {
+        "label": "Day 3",
+        "date": "Saturday, October 17, 2026"
+      }
+    },
+    "4": {
+      "en": {
+        "label": "Day 4",
+        "date": "Sunday, October 18, 2026"
+      }
+    }
+  },
+  "depts": {
+    "LOG": {
+      "color": "#2C4A6E",
+      "en": "Logistics",
+      "hasColumn": true
+    },
+    "ADM": {
+      "color": "#E8821E",
+      "en": "Administration",
+      "hasColumn": true
+    },
+    "KIT": {
+      "color": "#B0562A",
+      "en": "Secret",
+      "hasColumn": true
+    },
+    "INT": {
+      "color": "#8C6D3F",
+      "en": "Intercession",
+      "hasColumn": true
+    },
+    "WOR": {
+      "color": "#A0407A",
+      "en": "Worship",
+      "hasColumn": true
+    },
+    "HAK": {
+      "color": "#0E8F9E",
+      "en": "Hakuna",
+      "hasColumn": true
+    },
+    "TRB": {
+      "color": "#1E7A5F",
+      "en": "Tribe Leaders",
+      "hasColumn": true
+    },
+    "VOZ": {
+      "color": "#7A5CA8",
+      "en": "Voices",
+      "hasColumn": true
+    },
+    "EVT": {
+      "color": "#C8102E",
+      "en": "Events",
+      "hasColumn": false
+    },
+    "MED": {
+      "color": "#4A6FA5",
+      "en": "Media",
+      "hasColumn": false
+    },
+    "DIR": {
+      "color": "#6E7A8A",
+      "en": "Direction",
+      "hasColumn": false
+    },
+    "ALL": {
+      "color": "#55606E",
+      "en": "All Teams",
+      "hasColumn": false
+    }
+  },
+  "sections": {
+    "Ceremony": {
+      "color": "#E8821E",
+      "en": "Ceremony"
+    },
+    "Teaching": {
+      "color": "#13243B",
+      "en": "Teaching"
+    },
+    "Walk": {
+      "color": "#2C4A6E",
+      "en": "Walk"
+    },
+    "Meal": {
+      "color": "#B0562A",
+      "en": "Meal"
+    },
+    "Logistics Op": {
+      "color": "#1E7A5F",
+      "en": "Logistics Op"
+    },
+    "Challenge": {
+      "color": "#C8102E",
+      "en": "Challenge"
+    },
+    "Camp & Rest": {
+      "color": "#55606E",
+      "en": "Camp & Rest"
+    },
+    "Safety": {
+      "color": "#8C1D1D",
+      "en": "Safety"
+    },
+    "Registration": {
+      "color": "#4A6FA5",
+      "en": "Registration"
+    },
+    "Ministry": {
+      "color": "#7A5CA8",
+      "en": "Ministry"
+    },
+    "Media": {
+      "color": "#0E8F9E",
+      "en": "Media"
+    },
+    "Transport": {
+      "color": "#6E7A8A",
+      "en": "Transport"
+    }
+  },
+  "glossary": {
+    "en": [
+      {
+        "t": "Traveler",
+        "d": "A participant on the track — a man going through the TOP for the first time."
+      },
+      {
+        "t": "Legendary",
+        "d": "A graduated member of the movement; also the title conferred at graduation."
+      },
+      {
+        "t": "Tribe",
+        "d": "The squad a Traveler is assigned to, led by a captain and a vice-captain."
+      },
+      {
+        "t": "Voices",
+        "d": "The team that directs, commands and paces the Travelers throughout the track."
+      },
+      {
+        "t": "Hakuna",
+        "d": "The support and care team looking after the Travelers' physical and medical wellbeing."
+      },
+      {
+        "t": "Ventilation",
+        "d": "Also called Venting. A guided sharing circle where the men open up and give testimony."
+      },
+      {
+        "t": "Station",
+        "d": "A fixed teaching stop along the route, numbered in sequence."
+      },
+      {
+        "t": "Mud Fight",
+        "d": "The physical confrontation challenge on Day 3."
+      },
+      {
+        "t": "Search",
+        "d": "Safety inspection of personal belongings; two are scheduled on Day 1."
+      },
+      {
+        "t": "MRE",
+        "d": "Meal Ready to Eat — the field ration issued before the night march."
+      },
+      {
+        "t": "King's Scene",
+        "d": "The celebration meal served to the new Legendaries after graduation."
+      }
+    ]
+  },
+  "cues": [
+    {
+      "n": 1,
+      "ref": "1",
+      "day": 1,
+      "start": "11:00",
+      "end": "12:00",
+      "durMin": 60,
+      "absStart": 660,
+      "absEnd": 720,
+      "section": "Logistics Op",
+      "sectionColor": "#1E7A5F",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Help the ADM Team with the tents, hang the flags",
+        "ADM": "Prepare the check in area",
+        "KIT": "Wait on the servers area",
+        "INT": "Make sure everyone is checked in first to suppord the ADM team",
+        "WOR": "Gather servers in worship and practice the songs to be played at the TOP",
+        "HAK": "Set up registration to receive Travelers and Servers",
+        "TRB": "Wait on the servers area",
+        "VOZ": "Help Maintain Order"
+      },
+      "en": {
+        "block": "Setup & Server Opening",
+        "section": "Logistics Op",
+        "activity": "Set up registration for Servers and Travelers; team meeting.",
+        "lead": "ADM — Logistics — Hakunas",
+        "direction": "Logistics, Administration and Hakunas",
+        "outcome": "Set up registration to receive Travelers and Servers",
+        "flag": ""
+      }
+    },
+    {
+      "n": 2,
+      "ref": "2",
+      "day": 1,
+      "start": "12:00",
+      "end": "13:00",
+      "durMin": 60,
+      "absStart": 720,
+      "absEnd": 780,
+      "section": "Ceremony",
+      "sectionColor": "#E8821E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "DIR"
+      ],
+      "tasks": {
+        "LOG": "Attend the Opening Meeting",
+        "ADM": "Attend the Opening Meeting",
+        "KIT": "Attend the Opening Meeting",
+        "INT": "Attend the Opening Meeting",
+        "WOR": "Attend the Opening Meeting — SING: I Surrender All, Pour Out My Heart",
+        "HAK": "Attend the Opening Meeting",
+        "TRB": "Attend the Opening Meeting",
+        "VOZ": "Attend the Opening Meeting"
+      },
+      "en": {
+        "block": "Setup & Server Opening",
+        "section": "Ceremony",
+        "activity": "(Mandatory) Servers Welcome and Official TOP Opening",
+        "lead": "Pastor Jeff / Gus",
+        "direction": "Leadership, support from admin, communion",
+        "outcome": "Open the TOP and Prepare the Servers to the TOP",
+        "flag": ""
+      }
+    },
+    {
+      "n": 3,
+      "ref": "3",
+      "day": 1,
+      "start": "13:00",
+      "end": "14:00",
+      "durMin": 60,
+      "absStart": 780,
+      "absEnd": 840,
+      "section": "Logistics Op",
+      "sectionColor": "#1E7A5F",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Stay clear from the check in area (Unless setting something up)",
+        "ADM": "Ensure forms are out, back pack tags, sign in sheet and designated person for the $10 is in position. Train Intercession team.",
+        "KIT": "Stay clear of the check in area",
+        "INT": "Support the ADM team, and receicve training",
+        "WOR": "Gather servers in worship and practice the songs to be played at the TOP",
+        "HAK": "Stay clear of the check in area",
+        "TRB": "Stay clear of the check in area",
+        "VOZ": "Stay clear of the check in area"
+      },
+      "en": {
+        "block": "Setup & Server Opening",
+        "section": "Logistics Op",
+        "activity": "Prepare the Travelers reception area and direct traffic to begin registration",
+        "lead": "LOGISTICS/ADM",
+        "direction": "Logistics, Administration and Hakunas",
+        "outcome": "Get check in ready for travelers",
+        "flag": ""
+      }
+    },
+    {
+      "n": 4,
+      "ref": "4",
+      "day": 1,
+      "start": "14:00",
+      "end": "16:00",
+      "durMin": 120,
+      "absStart": 840,
+      "absEnd": 960,
+      "section": "Registration",
+      "sectionColor": "#4A6FA5",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Support Hakunas and make sure infrastructe is adequate, help direct cars — Drop offs and Parking",
+        "ADM": "Receive Travelers, support check-in, and direct them to the designated area.",
+        "KIT": "Stay clear of the check in area",
+        "INT": "Support check-in and Traveler reception.",
+        "WOR": "Stay clear of the check in area",
+        "HAK": "Receive Travelers and direct them to the designated area.",
+        "TRB": "Stay clear of the check in area",
+        "VOZ": "Direct travelers to the area designated for exercises"
+      },
+      "en": {
+        "block": "Traveler Check-In & Tribes",
+        "section": "Registration",
+        "activity": "Travelers Check-in",
+        "lead": "ADM / INTERCESSION / HAKUNA",
+        "direction": "Logistics, Administration and Hakunas",
+        "outcome": "Receive the Travelers and direct them to the designated area",
+        "flag": ""
+      }
+    },
+    {
+      "n": 5,
+      "ref": "5",
+      "day": 1,
+      "start": "16:00",
+      "end": "16:30",
+      "durMin": 30,
+      "absStart": 960,
+      "absEnd": 990,
+      "section": "Logistics Op",
+      "sectionColor": "#1E7A5F",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Turn down the check in area, make sure the area is ready to be returned",
+        "ADM": "Turn down the check in set up and get ready to get the travelers dinner",
+        "KIT": "Head to the TOP",
+        "INT": "Prepare to pray for the exercises",
+        "WOR": "Join Intercession",
+        "HAK": "Get ready to support the first Seearch",
+        "TRB": "Join the travelers",
+        "VOZ": "Organize and assign a captain and vice-captain for each Tribe"
+      },
+      "en": {
+        "block": "Traveler Check-In & Tribes",
+        "section": "Logistics Op",
+        "activity": "Organization of the Tribes",
+        "lead": "VOICES",
+        "direction": "Voices",
+        "outcome": "Organize and assign a captain and vice-captain for each Tribe",
+        "flag": ""
+      }
+    },
+    {
+      "n": 6,
+      "ref": "6",
+      "day": 1,
+      "start": "16:30",
+      "end": "17:30",
+      "durMin": 60,
+      "absStart": 990,
+      "absEnd": 1050,
+      "section": "Ceremony",
+      "sectionColor": "#E8821E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Distribute water and support tribe formation.",
+        "ADM": "Bring the duffle bags, zip locks, and markers for the first search",
+        "KIT": "Head to the TOP",
+        "INT": "Pray for the safety of the travelers during exercises",
+        "WOR": "Join Intercession",
+        "HAK": "stay attentive for any injuries during the exercises",
+        "TRB": "Join the travelers",
+        "VOZ": "Form the Tribes and begin the exercises."
+      },
+      "en": {
+        "block": "Traveler Check-In & Tribes",
+        "section": "Ceremony",
+        "activity": "Formation of all Tribes, start of exercises, and distribution of water",
+        "lead": "VOICES",
+        "direction": "VOICES/LOGISTICS",
+        "outcome": "All teams aligned in position",
+        "flag": ""
+      }
+    },
+    {
+      "n": 7,
+      "ref": "7",
+      "day": 1,
+      "start": "17:30",
+      "end": "18:00",
+      "durMin": 30,
+      "absStart": 1050,
+      "absEnd": 1080,
+      "section": "Safety",
+      "sectionColor": "#8C1D1D",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT",
+        "DIR"
+      ],
+      "tasks": {
+        "LOG": "Make sure the area for the search is ready",
+        "ADM": "Make duffle bags, zip logs and markers available",
+        "KIT": "Head to the TOP",
+        "INT": "Pray for safety on the first search",
+        "WOR": "Join Intercession",
+        "HAK": "Support if necessary with prohibeted items",
+        "TRB": "Resposible for the search",
+        "VOZ": "Help Maintain Order"
+      },
+      "en": {
+        "block": "Safety, Welcome & Dinner",
+        "section": "Safety",
+        "activity": "Safety measures: remove watches and electronic devices — 1st SEARCH",
+        "lead": "Sanders",
+        "direction": "Events Director",
+        "outcome": "General personal safety briefing",
+        "flag": ""
+      }
+    },
+    {
+      "n": 8,
+      "ref": "8",
+      "day": 1,
+      "start": "18:00",
+      "end": "18:20",
+      "durMin": 20,
+      "absStart": 1080,
+      "absEnd": 1100,
+      "section": "Ceremony",
+      "sectionColor": "#E8821E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "DIR"
+      ],
+      "tasks": {
+        "LOG": "Join the travelers",
+        "ADM": "Join the travelers",
+        "KIT": "Head to the TOP",
+        "INT": "Join the travelers",
+        "WOR": "Join the travelers",
+        "HAK": "Join the travelers",
+        "TRB": "Be with the Travelers",
+        "VOZ": "Gather Travelers for the teaching"
+      },
+      "en": {
+        "block": "Safety, Welcome & Dinner",
+        "section": "Ceremony",
+        "activity": "WELCOME SPEECH",
+        "lead": "Gus",
+        "direction": "GIVE THE WELCOME",
+        "outcome": "ENSURE THEY UNDERSTAND THE ESSENCE",
+        "flag": ""
+      }
+    },
+    {
+      "n": 9,
+      "ref": "9",
+      "day": 1,
+      "start": "18:20",
+      "end": "18:50",
+      "durMin": 30,
+      "absStart": 1100,
+      "absEnd": 1130,
+      "section": "Meal",
+      "sectionColor": "#B0562A",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Help organize the lines",
+        "ADM": "ADM — PICK UP CHICK-FIL-A / GATORADE / CHIPS",
+        "KIT": "Head to the TOP",
+        "INT": "Pray over the food",
+        "WOR": "Join Intercession",
+        "HAK": "Stand by",
+        "TRB": "Join the travelers",
+        "VOZ": "Help Maintain Order"
+      },
+      "en": {
+        "block": "Safety, Welcome & Dinner",
+        "section": "Meal",
+        "activity": "Travelers Dinner",
+        "lead": "ADM",
+        "direction": "ADM — PICK UP CHICK-FIL-A / GATORADE / CHIPS",
+        "outcome": "CHICK-FIL-A + CHIPS + GATORADE",
+        "flag": ""
+      }
+    },
+    {
+      "n": 10,
+      "ref": "10",
+      "day": 1,
+      "start": "18:50",
+      "end": "20:00",
+      "durMin": 70,
+      "absStart": 1130,
+      "absEnd": 1200,
+      "section": "Logistics Op",
+      "sectionColor": "#1E7A5F",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "LEAVE THE AREA CLEAN",
+        "ADM": "Head to the TOP",
+        "KIT": "Head to the TOP",
+        "INT": "Divide the team: — Head to the TOP — Join the Travelers on the Bus/Van — Drive Behind the BUs/Van",
+        "WOR": "Head to the TOP",
+        "HAK": "Divide the team: — Head to the TOP — Join the Travelers on the Bus/Van — Drive Behind the BUs/Van",
+        "TRB": "Join the travelers",
+        "VOZ": "Help direct the travelers"
+      },
+      "en": {
+        "block": "Safety, Welcome & Dinner",
+        "section": "Logistics Op",
+        "activity": "Leave the area clean",
+        "lead": "LOGISTICS",
+        "direction": "LOGISTICS",
+        "outcome": "LEAVE THE AREA CLEAN",
+        "flag": "70 minutes allowed to clear the area — considerably longer than the equivalent cue in the previous TOP. Confirm this is a deliberate buffer."
+      }
+    },
+    {
+      "n": 11,
+      "ref": "11",
+      "day": 1,
+      "start": "20:00",
+      "end": "20:30",
+      "durMin": 30,
+      "absStart": 1200,
+      "absEnd": 1230,
+      "section": "Transport",
+      "sectionColor": "#6E7A8A",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT"
+      ],
+      "tasks": {
+        "LOG": "Head to the TOP",
+        "ADM": "Head to the TOP",
+        "KIT": "Head to the TOP",
+        "INT": "Divide the team: — Head to the TOP — Join the Travelers on the Bus/Van — Drive Behind the BUs/Van",
+        "WOR": "Head to the TOP",
+        "HAK": "Divide the team: — Head to the TOP — Join the Travelers on the Bus/Van — Drive Behind the BUs/Van",
+        "TRB": "EVENTS COORDINATES THE TRIBES ONTO THE BUSES; VOICES HELPS WITH ORGANIZATION",
+        "VOZ": "Help organize the Tribes for orderly bus boarding."
+      },
+      "en": {
+        "block": "Transport to the Trailhead",
+        "section": "Transport",
+        "activity": "BOARD THE BUSES",
+        "lead": "ADM",
+        "direction": "EVENTS COORDINATES THE TRIBES ONTO THE BUSES; VOICES HELPS WITH ORGANIZATION",
+        "outcome": "BOARD THE BUSES IN AN ORDERLY MANNER",
+        "flag": ""
+      }
+    },
+    {
+      "n": 12,
+      "ref": "12",
+      "day": 1,
+      "start": "20:30",
+      "end": "22:30",
+      "durMin": 120,
+      "absStart": 1230,
+      "absEnd": 1350,
+      "section": "Transport",
+      "sectionColor": "#6E7A8A",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT"
+      ],
+      "tasks": {
+        "LOG": "At the camp",
+        "ADM": "At the camp",
+        "KIT": "At the camp",
+        "INT": "At the camp",
+        "WOR": "At the camp",
+        "HAK": "Divide the team: — Head to the TOP — Join the Travelers on the Bus/Van — Drive Behind the BUs/Van",
+        "TRB": "Join the travelers",
+        "VOZ": "Divide the team: — Head to the TOP — Join the Travelers on the Bus/Van — Drive Behind the BUs/Van"
+      },
+      "en": {
+        "block": "Transport to the Trailhead",
+        "section": "Transport",
+        "activity": "Travel to the drop-off location. Psalm 91.",
+        "lead": "EVENTS",
+        "direction": "EVENTS IS RESPONSIBLE FOR BUS BOARDING",
+        "outcome": "Read Psalm 91",
+        "flag": ""
+      }
+    },
+    {
+      "n": 13,
+      "ref": "13",
+      "day": 1,
+      "start": "22:30",
+      "end": "23:00",
+      "durMin": 30,
+      "absStart": 1350,
+      "absEnd": 1380,
+      "section": "Transport",
+      "sectionColor": "#6E7A8A",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Help clear the drop off area (no Vehicles around it)",
+        "ADM": "Help clear the drop off area (no Vehicles around it)",
+        "KIT": "At the camp",
+        "INT": "Welcome travelers at drop off location at the TOP",
+        "WOR": "Welcome travelers at drop off location at the TOP",
+        "HAK": "Get ready to support the second search",
+        "TRB": "Form and keep each Tribe together after exiting the buses.",
+        "VOZ": "CHECK BUS CLEANLINESS"
+      },
+      "en": {
+        "block": "Transport to the Trailhead",
+        "section": "Transport",
+        "activity": "GET OFF THE BUSES — FORM BY TRIBES",
+        "lead": "VOICES",
+        "direction": "TRIBE LEADER",
+        "outcome": "CHECK BUS CLEANLINESS",
+        "flag": ""
+      }
+    },
+    {
+      "n": 14,
+      "ref": "14",
+      "day": 1,
+      "start": "23:00",
+      "end": "23:30",
+      "durMin": 30,
+      "absStart": 1380,
+      "absEnd": 1410,
+      "section": "Logistics Op",
+      "sectionColor": "#1E7A5F",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT"
+      ],
+      "tasks": {
+        "LOG": "Prepare the area around the second search",
+        "ADM": "Help clear the drop off area (no Vehicles around it)",
+        "KIT": "At the camp",
+        "INT": "Pray over the second search area",
+        "WOR": "Pray over the second search area",
+        "HAK": "Prepare the area around the second search",
+        "TRB": "Join the travelers",
+        "VOZ": "Keep the Tribes organized and guide orderly restroom use."
+      },
+      "en": {
+        "block": "Transport to the Trailhead",
+        "section": "Logistics Op",
+        "activity": "FORM EVERYONE BY TRIBE; Get ready to go to the 2nd search area.",
+        "lead": "EVENTS AND VOICES",
+        "direction": "Stay in line until directed to go to the second search area",
+        "outcome": "KEEP THE AREA CLEAN",
+        "flag": ""
+      }
+    },
+    {
+      "n": 15,
+      "ref": "15",
+      "day": 1,
+      "start": "23:30",
+      "end": "00:15",
+      "durMin": 45,
+      "absStart": 1410,
+      "absEnd": 1455,
+      "section": "Safety",
+      "sectionColor": "#8C1D1D",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT",
+        "DIR"
+      ],
+      "tasks": {
+        "LOG": "Turn the lights for the second search",
+        "ADM": "Bring the duffle bags, zip locks, and markers for the first search",
+        "KIT": "At the camp",
+        "INT": "Pray over the second search area",
+        "WOR": "Pray over the second search area",
+        "HAK": "DO NOT REMOVE MEDICATIONS; DO NOT REMOVE FORKS OR SPOONS; REMOVE ONLY PLASTIC KNIVES",
+        "TRB": "DO NOT REMOVE MEDICATIONS; DO NOT REMOVE FORKS OR SPOONS; REMOVE ONLY PLASTIC KNIVES",
+        "VOZ": "Help Maintain Order"
+      },
+      "en": {
+        "block": "Second Search & the Dark Room",
+        "section": "Safety",
+        "activity": "SECOND SEARCH",
+        "lead": "EVENTS DIRECTOR — TRIBE LEADER — HAKUNAS",
+        "direction": "DO NOT REMOVE MEDICATIONS; DO NOT REMOVE FORKS OR SPOONS; REMOVE ONLY PLASTIC KNIVES",
+        "outcome": "REMOVE POSSIBLE BLADES/WEAPONS AND ELECTRONIC DEVICES",
+        "flag": ""
+      }
+    },
+    {
+      "n": 16,
+      "ref": "16",
+      "day": 1,
+      "start": "00:15",
+      "end": "00:35",
+      "durMin": 20,
+      "absStart": 1455,
+      "absEnd": 1475,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Coordinate delivery of bags with ADMIN, Tribe Leaders and Hakunas",
+        "ADM": "Coordinate delivery of bags with ADMIN, Tribe Leaders and Hakunas",
+        "KIT": "At the camp",
+        "INT": "Pray for safety on the second search",
+        "WOR": "Pray for safety on the second search",
+        "HAK": "Coordinate delivery of bags with ADMIN, Tribe Leaders and Hakunas",
+        "TRB": "Coordinate delivery of bags with ADMIN and Trbe Leaders",
+        "VOZ": "TEACHING — YOUR TRANSFORMATION"
+      },
+      "en": {
+        "block": "Second Search & the Dark Room",
+        "section": "Teaching",
+        "activity": "The Dark Room",
+        "lead": "VOICE (ROB)",
+        "direction": "TURN IN HIDDEN ITEMS SUCH AS DRUGS, ETC.",
+        "outcome": "TEACHING — YOUR TRANSFORMATION",
+        "flag": ""
+      }
+    },
+    {
+      "n": 17,
+      "ref": "17",
+      "day": 1,
+      "start": "00:35",
+      "end": "00:55",
+      "durMin": 20,
+      "absStart": 1475,
+      "absEnd": 1495,
+      "section": "Logistics Op",
+      "sectionColor": "#1E7A5F",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "DIR"
+      ],
+      "tasks": {
+        "LOG": "Distribute MREs, shovels, water, and stoves; provide usage instructions.",
+        "ADM": "Collect the belongings and bring to a safe area",
+        "KIT": "At the Camp",
+        "INT": "Pray over the MRE",
+        "WOR": "Pray over the MRE",
+        "HAK": "Stand By",
+        "TRB": "Help distribute MRE",
+        "VOZ": "Help Maintain Order"
+      },
+      "en": {
+        "block": "Second Search & the Dark Room",
+        "section": "Logistics Op",
+        "activity": "Distribution of MREs, shovel, water, and stove",
+        "lead": "LOGISTICS",
+        "direction": "Logistics Director and Assistant Director",
+        "outcome": "Distribute food and provide instructions for use",
+        "flag": ""
+      }
+    },
+    {
+      "n": 18,
+      "ref": "18",
+      "day": 1,
+      "start": "00:55",
+      "end": "02:00",
+      "durMin": 65,
+      "absStart": 1495,
+      "absEnd": 1560,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "Get Cemitery Ready",
+        "ADM": "At the camp",
+        "KIT": "At the camp",
+        "INT": "Pray for safe hiking trhough the night",
+        "WOR": "Pray for safe hiking trhough the night",
+        "HAK": "Stand By",
+        "TRB": "Join the travelers",
+        "VOZ": "Keep everyone walking in a line to the cemetery."
+      },
+      "en": {
+        "block": "Night March to the Cemetery",
+        "section": "Walk",
+        "activity": "Walk to the cemetery",
+        "lead": "EVENTS AND VOICES",
+        "direction": "EVERYONE WALKING IN A LINE",
+        "outcome": "ARRIVE AT THE CEMETERY LOCATION",
+        "flag": ""
+      }
+    },
+    {
+      "n": 19,
+      "ref": "19",
+      "day": 1,
+      "start": "02:00",
+      "end": "02:20",
+      "durMin": 20,
+      "absStart": 1560,
+      "absEnd": 1580,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Light up the candles",
+        "ADM": "At the camp",
+        "KIT": "At the camp",
+        "INT": "Pray over the speaker",
+        "WOR": "Pray over the speaker",
+        "HAK": "Stand By",
+        "TRB": "Be with the Travelers",
+        "VOZ": "Gather Travelers for the teaching"
+      },
+      "en": {
+        "block": "Night March to the Cemetery",
+        "section": "Teaching",
+        "activity": "Take Your Opportunity",
+        "lead": "Juan Tamayo",
+        "direction": "BE IMPACTED BY THE DREAMS THEY ARE LEAVING BEHIND",
+        "outcome": "MAY THEY TAKE ADVANTAGE OF THEIR OPPORTUNITIES",
+        "flag": ""
+      }
+    },
+    {
+      "n": 20,
+      "ref": "20",
+      "day": 1,
+      "start": "02:20",
+      "end": "03:30",
+      "durMin": 70,
+      "absStart": 1580,
+      "absEnd": 1650,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT",
+        "DIR",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "At the camp",
+        "ADM": "At the camp",
+        "KIT": "At the camp",
+        "INT": "Pray for safe hiking trhough the night",
+        "WOR": "Pray for safe hiking trhough the night",
+        "HAK": "Support Tribe movement and order during the walk.",
+        "TRB": "Keep the Tribe together and moving in line during the walk.",
+        "VOZ": "Direct the travelers into the trail"
+      },
+      "en": {
+        "block": "Night March to the Cemetery",
+        "section": "Walk",
+        "activity": "Start of the walk",
+        "lead": "EVERYONE",
+        "direction": "EVENTS DIRECTORS, TRIBE LEADERS, HAKUNAS",
+        "outcome": "WALK TO THE \"ENJOY THE JOURNEY\" TEACHING",
+        "flag": ""
+      }
+    },
+    {
+      "n": 21,
+      "ref": "21",
+      "day": 1,
+      "start": "03:30",
+      "end": "03:45",
+      "durMin": 15,
+      "absStart": 1650,
+      "absEnd": 1665,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "At the camp",
+        "ADM": "At the camp",
+        "KIT": "At the camp",
+        "INT": "Pray over the speaker",
+        "WOR": "Pray over the speaker",
+        "HAK": "Stand By",
+        "TRB": "Be with the Travelers",
+        "VOZ": "Gather Travelers for the teaching"
+      },
+      "en": {
+        "block": "Night March to the Cemetery",
+        "section": "Teaching",
+        "activity": "Enjoy the Journey",
+        "lead": "Henrique",
+        "direction": "BE IMPACTED BY ENJOYING THE JOURNEY WITH JESUS",
+        "outcome": "MAY THEY UNDERSTAND THAT ENJOYING THE JOURNEY MEANS ENJOYING JESUS",
+        "flag": ""
+      }
+    },
+    {
+      "n": 22,
+      "ref": "22",
+      "day": 1,
+      "start": "03:45",
+      "end": "04:45",
+      "durMin": 60,
+      "absStart": 1665,
+      "absEnd": 1725,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT",
+        "DIR",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "At the camp",
+        "ADM": "At the camp",
+        "KIT": "At the camp",
+        "INT": "Pray for safe hiking trhough the night",
+        "WOR": "Pray for safe hiking trhough the night",
+        "HAK": "Support Tribe movement and order during the walk.",
+        "TRB": "Keep the Tribe together through the end of the walk.",
+        "VOZ": "Direct the travelers into the trail"
+      },
+      "en": {
+        "block": "Night March to the Cemetery",
+        "section": "Walk",
+        "activity": "End of the 1.6-mile walk",
+        "lead": "Everyone",
+        "direction": "Events Director, Tribe Leaders",
+        "outcome": "Get them to start breaking down physically",
+        "flag": ""
+      }
+    },
+    {
+      "n": 23,
+      "ref": "23",
+      "day": 1,
+      "start": "04:45",
+      "end": "05:00",
+      "durMin": 15,
+      "absStart": 1725,
+      "absEnd": 1740,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "At the camp",
+        "ADM": "At the camp",
+        "KIT": "At the camp",
+        "INT": "Pray over the speaker",
+        "WOR": "Pray over the speaker",
+        "HAK": "Stand By",
+        "TRB": "Be with the Travelers",
+        "VOZ": "Gather Travelers for the teaching"
+      },
+      "en": {
+        "block": "Night March to the Cemetery",
+        "section": "Teaching",
+        "activity": "I Will Take You to the Desert",
+        "lead": "Sanders",
+        "direction": "Leave your distractions behind; what matters is focusing on Jesus.",
+        "outcome": "Understand the meaning of what is being done here.",
+        "flag": ""
+      }
+    },
+    {
+      "n": 24,
+      "ref": "24",
+      "day": 1,
+      "start": "05:00",
+      "end": "05:15",
+      "durMin": 15,
+      "absStart": 1740,
+      "absEnd": 1755,
+      "section": "Camp & Rest",
+      "sectionColor": "#55606E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT"
+      ],
+      "tasks": {
+        "LOG": "At the camp",
+        "ADM": "At the camp",
+        "KIT": "At the camp",
+        "INT": "Pray over the camping area",
+        "WOR": "Pray over the camping area",
+        "HAK": "Check the camping area for any potential danger",
+        "TRB": "Set up tents by Tribe.",
+        "VOZ": "Direct the travelers into the camping area."
+      },
+      "en": {
+        "block": "First Camp",
+        "section": "Camp & Rest",
+        "activity": "SET UP CAMP",
+        "lead": "EVENTS AND TRIBE LEADERS",
+        "direction": "SET UP TENTS BY TRIBE",
+        "outcome": "Assemble the tents",
+        "flag": ""
+      }
+    },
+    {
+      "n": 25,
+      "ref": "25",
+      "day": 1,
+      "start": "05:15",
+      "end": "07:00",
+      "durMin": 105,
+      "absStart": 1755,
+      "absEnd": 1860,
+      "section": "Camp & Rest",
+      "sectionColor": "#55606E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "At the camp",
+        "ADM": "At the camp",
+        "KIT": "At the camp",
+        "INT": "Pray for some rest before we wake them up, head to the camp.",
+        "WOR": "Pray for some rest before we wake them up",
+        "HAK": "Split: — Watch the Travelers — Go back to camp",
+        "TRB": "Leave the travelers for the day",
+        "VOZ": "Maintain general silence so the Travelers can rest and head back to Camp."
+      },
+      "en": {
+        "block": "First Camp",
+        "section": "Camp & Rest",
+        "activity": "GENERAL SILENCE",
+        "lead": "VOICES",
+        "direction": "",
+        "outcome": "ALLOW THE TRAVELERS TO REST",
+        "flag": "Runs until 07:00, but the Travelers are woken at 06:30 on Day 2. Overlaps by 30 minutes."
+      }
+    },
+    {
+      "n": 26,
+      "ref": "26",
+      "day": 2,
+      "start": "05:45",
+      "end": "06:30",
+      "durMin": 45,
+      "absStart": 1785,
+      "absEnd": 1830,
+      "section": "Ministry",
+      "sectionColor": "#7A5CA8",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Attend the Morning Prayer",
+        "ADM": "Attend the Morning Prayer",
+        "KIT": "Attend the Morning Prayer",
+        "INT": "Attend the Morning Prayer",
+        "WOR": "Attend the Morning Prayer",
+        "HAK": "Attend the Morning Prayer",
+        "TRB": "Attend the Morning Prayer",
+        "VOZ": "Attend the Morning Prayer"
+      },
+      "en": {
+        "block": "Morning Prayer & Our Daily Bread",
+        "section": "Ministry",
+        "activity": "Morning Prayer",
+        "lead": "Pastor Jeff",
+        "direction": "Encourage and pray for the team",
+        "outcome": "Lift their spirists and teach that our nurishment comes from God",
+        "flag": "Numbered 26 in the source, same as the next cue. Runs 45 minutes before the Travelers are woken, and overlaps Day 1's General Silence — Servers only."
+      }
+    },
+    {
+      "n": 27,
+      "ref": "26b",
+      "day": 2,
+      "start": "06:30",
+      "end": "07:00",
+      "durMin": 30,
+      "absStart": 1830,
+      "absEnd": 1860,
+      "section": "Camp & Rest",
+      "sectionColor": "#55606E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Help voices to wake up the travelers",
+        "ADM": "Prepare the bread for the intercession team",
+        "KIT": "Help ADM with the preparation. Make sure to have baskets ready (clean)",
+        "INT": "Pray over the bread",
+        "WOR": "Pray over the bread",
+        "HAK": "Get ready to head to the",
+        "TRB": "Wake up to the trumpet / go to the Our Daily Bread location",
+        "VOZ": "Wake up to the trumpet / go to the Our Daily Bread location"
+      },
+      "en": {
+        "block": "Morning Prayer & Our Daily Bread",
+        "section": "Camp & Rest",
+        "activity": "Wake up to the trumpet / go to the Our Daily Bread location",
+        "lead": "VOICES AND TRIBE LEADERS",
+        "direction": "Teach aleartness",
+        "outcome": "The entire campsite must be clean",
+        "flag": "Also numbered 26 in the source — duplicate of the previous cue."
+      }
+    },
+    {
+      "n": 28,
+      "ref": "27",
+      "day": 2,
+      "start": "07:00",
+      "end": "07:15",
+      "durMin": 15,
+      "absStart": 1860,
+      "absEnd": 1875,
+      "section": "Logistics Op",
+      "sectionColor": "#1E7A5F",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Stay back",
+        "ADM": "Bring the baskets and prepare to pass bread around",
+        "KIT": "Head to the area and join the daily bread",
+        "INT": "Pray over the travelers and the day ahead",
+        "WOR": "Pray over the travelers and the day ahead",
+        "HAK": "Stay alert for anybody that might need assistance",
+        "TRB": "Stay clear from the camp site, do NOT approach travelers until they are out of the tents",
+        "VOZ": "Wake up to the horn / go to the Our Daily Bread location"
+      },
+      "en": {
+        "block": "Morning Prayer & Our Daily Bread",
+        "section": "Logistics Op",
+        "activity": "Leave the backpacks and take one with food",
+        "lead": "LOGISTICS",
+        "direction": "TAKE THE BACKPACKS TO THE CAMPSITE, COVER THEM WITH A TARP, AND SEPARATE THEM BY FAMILY",
+        "outcome": "Learn to work in teams and share the load.",
+        "flag": ""
+      }
+    },
+    {
+      "n": 29,
+      "ref": "28",
+      "day": 2,
+      "start": "07:15",
+      "end": "07:45",
+      "durMin": 30,
+      "absStart": 1875,
+      "absEnd": 1905,
+      "section": "Ceremony",
+      "sectionColor": "#E8821E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Join travelers for the Daily Bread",
+        "ADM": "Provide the basket with bread for Our Daily Bread. Support from the secret",
+        "KIT": "Provide the basket with bread for Our Daily Bread. Support from the Admin",
+        "INT": "Pray over the speaker",
+        "WOR": "Sing: Our Father",
+        "HAK": "Join travelers for the Daily Bread",
+        "TRB": "Join travelers for the Daily Bread",
+        "VOZ": "Gather Travelers for the teaching"
+      },
+      "en": {
+        "block": "Morning Prayer & Our Daily Bread",
+        "section": "Ceremony",
+        "activity": "Our Daily Bread",
+        "lead": "Pastor Jeff",
+        "direction": "Logistics to provide a basket with bread / Worship Team",
+        "outcome": "Learn to be thankful for our daily bread",
+        "flag": ""
+      }
+    },
+    {
+      "n": 30,
+      "ref": "29",
+      "day": 2,
+      "start": "07:45",
+      "end": "07:50",
+      "durMin": 5,
+      "absStart": 1905,
+      "absEnd": 1910,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT",
+        "DIR"
+      ],
+      "tasks": {
+        "LOG": "Gather Travelers Back backs to move it to the next camp.",
+        "ADM": "Bring the baskets back to the secret",
+        "KIT": "Bring the baskets back to the secret",
+        "INT": "Pray over safety during the games",
+        "WOR": "Pray over safety during the games",
+        "HAK": "Stay alert for anybody that might need assistance",
+        "TRB": "Join the travelers",
+        "VOZ": "Direct the travelers to the games area/rules"
+      },
+      "en": {
+        "block": "Morning Games",
+        "section": "Walk",
+        "activity": "Walk to the Games Area",
+        "lead": "VOICES",
+        "direction": "Events Director",
+        "outcome": "Walk to the Games Area",
+        "flag": ""
+      }
+    },
+    {
+      "n": 31,
+      "ref": "30",
+      "day": 2,
+      "start": "07:50",
+      "end": "08:45",
+      "durMin": 55,
+      "absStart": 1910,
+      "absEnd": 1965,
+      "section": "Challenge",
+      "sectionColor": "#C8102E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT",
+        "DIR"
+      ],
+      "tasks": {
+        "LOG": "Help set up anything the games may require, make sure the horn is available and with battery",
+        "ADM": "At the camp",
+        "KIT": "At the camp",
+        "INT": "Pray over safety during the games",
+        "WOR": "Pray over safety during the games",
+        "HAK": "Stay alert for anybody that might need assistance",
+        "TRB": "Join the travelers",
+        "VOZ": "Direct the travelers to the games area/rules"
+      },
+      "en": {
+        "block": "Morning Games",
+        "section": "Challenge",
+        "activity": "Morning Games",
+        "lead": "Events Director",
+        "direction": "Logistics to provide the necessary equipment",
+        "outcome": "Get them energized and ready to go",
+        "flag": ""
+      }
+    },
+    {
+      "n": 32,
+      "ref": "31",
+      "day": 2,
+      "start": "08:45",
+      "end": "09:45",
+      "durMin": 60,
+      "absStart": 1965,
+      "absEnd": 2025,
+      "section": "Challenge",
+      "sectionColor": "#C8102E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "Go to check on the river crossing",
+        "ADM": "At the camp",
+        "KIT": "Prepare Lunch",
+        "INT": "Pray over the path leading to the lake and the lake crossing",
+        "WOR": "Pray over the path leading to the lake and the lake crossing",
+        "HAK": "Stay alert for anybody that might need assistance",
+        "TRB": "Join the travelers , help direct them to the lake crossing",
+        "VOZ": "Direct the travelers to the path to the lake crossing"
+      },
+      "en": {
+        "block": "Lake Crossing & Radical Purity",
+        "section": "Challenge",
+        "activity": "Walk from the campsite to the lake rope crossing",
+        "lead": "Logistics to coordinate with Events on where the backpacks will stay",
+        "direction": "Logistics to guide everyone and direct the exit from the water.",
+        "outcome": "Feel that they can make it",
+        "flag": ""
+      }
+    },
+    {
+      "n": 33,
+      "ref": "31.5",
+      "day": 2,
+      "start": "09:45",
+      "end": "10:15",
+      "durMin": 30,
+      "absStart": 2025,
+      "absEnd": 2055,
+      "section": "Ministry",
+      "sectionColor": "#7A5CA8",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Go to check on the river crossing",
+        "ADM": "At the camp",
+        "KIT": "Prepare Lunch",
+        "INT": "Pray over the path leading to the lake and the lake crossing",
+        "WOR": "Pray over the path leading to the lake and the lake crossing",
+        "HAK": "Get ready to help travelers with the crossing",
+        "TRB": "Join the travelers , help direct them to the lake crossing",
+        "VOZ": "Direct the travelers to the path to the lake crossing"
+      },
+      "en": {
+        "block": "Lake Crossing & Radical Purity",
+        "section": "Ministry",
+        "activity": "Send Pastors and Hakunas ahead of the crossing",
+        "lead": "Intercession",
+        "direction": "Go Ahead preparing the way for travelers",
+        "outcome": "Get them ready to cross the lake",
+        "flag": ""
+      }
+    },
+    {
+      "n": 34,
+      "ref": "32",
+      "day": 2,
+      "start": "10:15",
+      "end": "11:15",
+      "durMin": 60,
+      "absStart": 2055,
+      "absEnd": 2115,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Have the rope ready for the crossing",
+        "ADM": "At the camp",
+        "KIT": "Prepare Lunch",
+        "INT": "Pray over the speaker",
+        "WOR": "Pray over the speaker",
+        "HAK": "Oversee the crossing",
+        "TRB": "Direct Travelers to the lake crossing",
+        "VOZ": "Direct Travelers to the lake crossing"
+      },
+      "en": {
+        "block": "Lake Crossing & Radical Purity",
+        "section": "Teaching",
+        "activity": "Station# 1, Radical Purity (2 Families at the time)",
+        "lead": "Eric",
+        "direction": "After the water crossing while they are wet",
+        "outcome": "For them to clean themselves internally",
+        "flag": "Station 2 does not appear anywhere in the rundown — it jumps from Station 1 to Station 3."
+      }
+    },
+    {
+      "n": 35,
+      "ref": "33",
+      "day": 2,
+      "start": "11:15",
+      "end": "12:15",
+      "durMin": 60,
+      "absStart": 2115,
+      "absEnd": 2175,
+      "section": "Challenge",
+      "sectionColor": "#C8102E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Transfer travelers bags to the second camp site",
+        "ADM": "At the camp",
+        "KIT": "Prepare Lunch",
+        "INT": "Pray over for safe crossing and help guide travelers",
+        "WOR": "SING: Left in the River",
+        "HAK": "Support the crossing",
+        "TRB": "Help Direct travelers in the crossing",
+        "VOZ": "Help Direct travelers in the crossing"
+      },
+      "en": {
+        "block": "Lake Crossing & Radical Purity",
+        "section": "Challenge",
+        "activity": "Crossing to the other side of lake",
+        "lead": "Tribe Leaders / Hakunas",
+        "direction": "Direct them to the crossing",
+        "outcome": "Prepare for them to be wased clean",
+        "flag": "Numbered 33 in the source, same as the next cue."
+      }
+    },
+    {
+      "n": 36,
+      "ref": "33b",
+      "day": 2,
+      "start": "12:15",
+      "end": "13:45",
+      "durMin": 90,
+      "absStart": 2175,
+      "absEnd": 2265,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "Gather everythimg used in the crossing",
+        "ADM": "At the camp",
+        "KIT": "Get lunch for servers ready to be served",
+        "INT": "Pray over the path to the next teaching",
+        "WOR": "Pray over the path to the next teaching",
+        "HAK": "Stay alert for anybody that might need assistance",
+        "TRB": "Join the travelers , help direct them to the next teaching",
+        "VOZ": "Guide the travelers to the next teaching"
+      },
+      "en": {
+        "block": "Midday Walk & Choose Your Path",
+        "section": "Walk",
+        "activity": "Walk to the next teaching",
+        "lead": "VOICES",
+        "direction": "Everyone",
+        "outcome": "All Tribes together",
+        "flag": "Also numbered 33 in the source — duplicate of the previous cue."
+      }
+    },
+    {
+      "n": 37,
+      "ref": "34",
+      "day": 2,
+      "start": "13:45",
+      "end": "14:00",
+      "durMin": 15,
+      "absStart": 2265,
+      "absEnd": 2280,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Wrap up the previous area and head to the abandoned house",
+        "ADM": "At the camp",
+        "KIT": "Bring Lunch to the servers",
+        "INT": "Pray over the speaker",
+        "WOR": "Pray over the speaker",
+        "HAK": "Check Servers if any assistance is neeeded",
+        "TRB": "Have a quick lunch and open communication with travelers",
+        "VOZ": "TEACHING — CHOOSE YOUR PATH"
+      },
+      "en": {
+        "block": "Midday Walk & Choose Your Path",
+        "section": "Teaching",
+        "activity": "Choose your Path (2 Families at the time)",
+        "lead": "Ronny Camillo",
+        "direction": "Understand life is made of choices",
+        "outcome": "Learn that God is the way, the truth and life.",
+        "flag": ""
+      }
+    },
+    {
+      "n": 38,
+      "ref": "35",
+      "day": 2,
+      "start": "14:00",
+      "end": "14:30",
+      "durMin": 30,
+      "absStart": 2280,
+      "absEnd": 2310,
+      "section": "Meal",
+      "sectionColor": "#B0562A",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "Head to the abandoned house",
+        "ADM": "Have lunch",
+        "KIT": "Serve Lunch for Servers",
+        "INT": "Have lunch",
+        "WOR": "Have lunch",
+        "HAK": "Have lunch",
+        "TRB": "Have lunch",
+        "VOZ": "Guide everyone to stop and have lunch organized by Family."
+      },
+      "en": {
+        "block": "Midday Walk & Choose Your Path",
+        "section": "Meal",
+        "activity": "LUNCH",
+        "lead": "VOICES",
+        "direction": "Guide everyone to stop and have lunch by Tribe.",
+        "outcome": "Everyone having lunch by Tribe",
+        "flag": ""
+      }
+    },
+    {
+      "n": 39,
+      "ref": "36",
+      "day": 2,
+      "start": "14:30",
+      "end": "15:30",
+      "durMin": 60,
+      "absStart": 2310,
+      "absEnd": 2370,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "Prepare the abandoned house",
+        "ADM": "Get ready to pick up the chickens and gatorades for the hunger games",
+        "KIT": "At the camp to prepare dinner for servers",
+        "INT": "Pray over the path leading to the house and over the abandoned house",
+        "WOR": "Pray over the path leading to the house and over the abandoned house",
+        "HAK": "Check the path to the abandoned house for safety hazards",
+        "TRB": "Join the travelers",
+        "VOZ": "Guide everyone to the abandoned house"
+      },
+      "en": {
+        "block": "Midday Walk & Choose Your Path",
+        "section": "Walk",
+        "activity": "WALK",
+        "lead": "VOICES",
+        "direction": "Everyone",
+        "outcome": "All Tribes together",
+        "flag": ""
+      }
+    },
+    {
+      "n": 40,
+      "ref": "37",
+      "day": 2,
+      "start": "15:30",
+      "end": "15:50",
+      "durMin": 20,
+      "absStart": 2370,
+      "absEnd": 2390,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Make sure the house is ready, bring the sound box with the recording",
+        "ADM": "Get ready to pick up the chickens and gatorades for the hunger games",
+        "KIT": "At the camp to prepare dinner for servers",
+        "INT": "Pray over the speaker",
+        "WOR": "Pray over the speaker",
+        "HAK": "Stay alert and check if anyone needs help",
+        "TRB": "Join the travelers",
+        "VOZ": "Gather Travelers for the teaching"
+      },
+      "en": {
+        "block": "The Abandoned House & Naaman",
+        "section": "Teaching",
+        "activity": "The Abandoned House",
+        "lead": "Pastor Jeff",
+        "direction": "LOGISTICS TO COME FROM THE OPPOSITE DIRECTION TO SET UP THE ABANDONED HOUSE",
+        "outcome": "remind the of the responsabilities at home",
+        "flag": ""
+      }
+    },
+    {
+      "n": 41,
+      "ref": "38",
+      "day": 2,
+      "start": "15:50",
+      "end": "17:20",
+      "durMin": 90,
+      "absStart": 2390,
+      "absEnd": 2480,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "Clear the area at the abandoned house and gather equipment, head to Naaman",
+        "ADM": "Head to pick up the chickens for the travelers, do not forget gatorades and threads",
+        "KIT": "At the camp to prepare dinner for servers",
+        "INT": "Pray over the path to Namaan and get the Lake ready for the 7 dips",
+        "WOR": "Pray over the path to Namaan and get the Lake ready for the 7 dips",
+        "HAK": "Check around to ensure everyone's safety and stay alert",
+        "TRB": "Join the travelers",
+        "VOZ": "Guide everyone to the lake"
+      },
+      "en": {
+        "block": "The Abandoned House & Naaman",
+        "section": "Walk",
+        "activity": "Walk to Station 3 — NAAMAN PARABLE — 2.5 miles",
+        "lead": "EVERYONE",
+        "direction": "One team sweeps the river route and ensures no one is left behind.",
+        "outcome": "All Tribes together",
+        "flag": ""
+      }
+    },
+    {
+      "n": 42,
+      "ref": "39",
+      "day": 2,
+      "start": "17:20",
+      "end": "18:05",
+      "durMin": 45,
+      "absStart": 2480,
+      "absEnd": 2525,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "Join the travelers",
+        "ADM": "Join the travelers",
+        "KIT": "At the camp to prepare dinner for servers",
+        "INT": "Pray over the speaker",
+        "WOR": "Sing: Our Father",
+        "HAK": "Stay alert make sure no travelers are having issues at the water",
+        "TRB": "Join the travelers",
+        "VOZ": "Gather Travelers for the teaching"
+      },
+      "en": {
+        "block": "The Abandoned House & Naaman",
+        "section": "Teaching",
+        "activity": "Station #3: NAAMAN PARABLE",
+        "lead": "Pastor Jeff",
+        "direction": "Everyone together for this teaching.",
+        "outcome": "Cleanse everyone from all pestelences",
+        "flag": ""
+      }
+    },
+    {
+      "n": 43,
+      "ref": "40",
+      "day": 2,
+      "start": "18:05",
+      "end": "19:05",
+      "durMin": 60,
+      "absStart": 2525,
+      "absEnd": 2585,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Prepare the area for the games (Bring the horn). Bring the Mic and speaker.",
+        "ADM": "Deliver the chickens",
+        "KIT": "At the camp to prepare dinner for servers",
+        "INT": "Pray ver the games area",
+        "WOR": "Pray ver the games area",
+        "HAK": "Stay alert for anybody that might need assistance",
+        "TRB": "Join the travelers",
+        "VOZ": "Direct the travelers to the games area/rules"
+      },
+      "en": {
+        "block": "Hunger Games",
+        "section": "Walk",
+        "activity": "Walk to the Hunger Games area",
+        "lead": "VOICES",
+        "direction": "All teams support Logistics and ADM; have the prizes ready",
+        "outcome": "Get ready for the teaching",
+        "flag": ""
+      }
+    },
+    {
+      "n": 44,
+      "ref": "41",
+      "day": 2,
+      "start": "19:05",
+      "end": "19:25",
+      "durMin": 20,
+      "absStart": 2585,
+      "absEnd": 2605,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Join the travelers. Bring the Mic and speaker.",
+        "ADM": "Join the travelers",
+        "KIT": "At the camp to prepare dinner for servers",
+        "INT": "Pray over the speaker",
+        "WOR": "Pray over the speaker",
+        "HAK": "Stay alert for anybody that might need assistance",
+        "TRB": "Join the travelers",
+        "VOZ": "Gather Travelers for the teaching"
+      },
+      "en": {
+        "block": "Hunger Games",
+        "section": "Teaching",
+        "activity": "Arrival at campsite (2) HUNTER PARABLE — HUNGER GAMES",
+        "lead": "Ronny Camillo",
+        "direction": "Logistics and ADM ready with prizes and ropes All teams supporting",
+        "outcome": "Awaken the good hunter",
+        "flag": ""
+      }
+    },
+    {
+      "n": 45,
+      "ref": "42",
+      "day": 2,
+      "start": "19:25",
+      "end": "20:25",
+      "durMin": 60,
+      "absStart": 2605,
+      "absEnd": 2665,
+      "section": "Challenge",
+      "sectionColor": "#C8102E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Help voices. Bring the Mic and speaker.",
+        "ADM": "Deliver prizes to voices and set the area for the threads",
+        "KIT": "At the camp to prepare dinner for servers",
+        "INT": "Pray over the games",
+        "WOR": "Pray over the games",
+        "HAK": "Stay alert for anybody that might need assistance",
+        "TRB": "Join the travelers",
+        "VOZ": "HUNGER GAMES"
+      },
+      "en": {
+        "block": "Hunger Games",
+        "section": "Challenge",
+        "activity": "HUNGER GAMES",
+        "lead": "VOICES",
+        "direction": "LED BY VOICES; ADM TO BE READY WITH ROASTED CHICKEN",
+        "outcome": "Show the travelers they have energy to fight.",
+        "flag": ""
+      }
+    },
+    {
+      "n": 46,
+      "ref": "43",
+      "day": 2,
+      "start": "20:25",
+      "end": "20:55",
+      "durMin": 30,
+      "absStart": 2665,
+      "absEnd": 2695,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "DIR"
+      ],
+      "tasks": {
+        "LOG": "Start working on the Tikki Torches for the Ventilation",
+        "ADM": "Deliver the threads to Tribe leades",
+        "KIT": "At the camp to prepare dinner for servers",
+        "INT": "Pray over the speaker",
+        "WOR": "Pray over the speaker",
+        "HAK": "Stay alert for anybody that might need assistance",
+        "TRB": "Give each traveler a thread",
+        "VOZ": "Gather Travelers for the teaching"
+      },
+      "en": {
+        "block": "Hunger Games",
+        "section": "Teaching",
+        "activity": "The Thread",
+        "lead": "Gus",
+        "direction": "ADM to be ready with the THREADS; all teams supporting",
+        "outcome": "Understand that small sins are a great trap",
+        "flag": ""
+      }
+    },
+    {
+      "n": 47,
+      "ref": "44",
+      "day": 2,
+      "start": "20:55",
+      "end": "21:25",
+      "durMin": 30,
+      "absStart": 2695,
+      "absEnd": 2725,
+      "section": "Ministry",
+      "sectionColor": "#7A5CA8",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Have Torches rady",
+        "ADM": "Head back to Camp",
+        "KIT": "At the camp to prepare dinner for servers",
+        "INT": "May they open their hearts and share their testimonies",
+        "WOR": "Pray over the speaker",
+        "HAK": "Stay alert for anybody that might need assistance",
+        "TRB": "Wake the travelers and bring to the fire",
+        "VOZ": "Wake the travelers and bring to the fire"
+      },
+      "en": {
+        "block": "Ventilation & Camp",
+        "section": "Ministry",
+        "activity": "VENTILATION SESSION",
+        "lead": "Intercession Team",
+        "direction": "Each Pastor responsible for their Tribe accompanies the venting session",
+        "outcome": "May they open their hearts and share their testimonies",
+        "flag": ""
+      }
+    },
+    {
+      "n": 48,
+      "ref": "45",
+      "day": 2,
+      "start": "21:25",
+      "end": "21:45",
+      "durMin": 20,
+      "absStart": 2725,
+      "absEnd": 2745,
+      "section": "Camp & Rest",
+      "sectionColor": "#55606E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Head back to the servers camp",
+        "ADM": "Head back to the servers camp",
+        "KIT": "Get ready to serve Dinner to Servers",
+        "INT": "Pray Over the Dinner Area",
+        "WOR": "Head back to the servers camp",
+        "HAK": "Watch over the travelers. The rest of the team heads back to the camp.",
+        "TRB": "Head back to the servers camp",
+        "VOZ": "Head back to the servers camp"
+      },
+      "en": {
+        "block": "Ventilation & Camp",
+        "section": "Camp & Rest",
+        "activity": "Set up camp",
+        "lead": "Each one their own",
+        "direction": "Camp by Tribe",
+        "outcome": "Get ready to sleep",
+        "flag": ""
+      }
+    },
+    {
+      "n": 49,
+      "ref": "46",
+      "day": 2,
+      "start": "21:45",
+      "end": "23:45",
+      "durMin": 120,
+      "absStart": 2745,
+      "absEnd": 2865,
+      "section": "Camp & Rest",
+      "sectionColor": "#55606E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "Head back to the servers camp",
+        "ADM": "Head back to the servers camp",
+        "KIT": "Head back to the servers camp",
+        "INT": "Pray Over the Servers",
+        "WOR": "Head back to the servers camp",
+        "HAK": "Head back to the servers camp",
+        "TRB": "Head back to the servers camp",
+        "VOZ": "Head back to the servers camp"
+      },
+      "en": {
+        "block": "Ventilation & Camp",
+        "section": "Camp & Rest",
+        "activity": "Dinner and Sleep",
+        "lead": "VOICE",
+        "direction": "Everyone together.",
+        "outcome": "Everyone Silent",
+        "flag": "Runs 21:45–23:45 in the source and overlaps cue 47 (Servers, 22:00–23:30) and the start of the Midnight Prayer at 23:30. Kept as parallel tracks — confirm."
+      }
+    },
+    {
+      "n": 50,
+      "ref": "47",
+      "day": 2,
+      "start": "22:00",
+      "end": "23:30",
+      "durMin": 90,
+      "absStart": 2760,
+      "absEnd": 2850,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "Dinner and Worship",
+        "ADM": "Dinner and Worship",
+        "KIT": "Dinner and Worship",
+        "INT": "Dinner and Worship",
+        "WOR": "Worship (Fire Play List)",
+        "HAK": "Dinner and Worship",
+        "TRB": "Dinner and Worship",
+        "VOZ": "Dinner and Worship"
+      },
+      "en": {
+        "block": "Servers' Vigil & Midnight Prayer",
+        "section": "Teaching",
+        "activity": "WAKE UP AND GENERAL SERVER SERVICE — TEACHING: WEIGHT OF SIN",
+        "lead": "Directos",
+        "direction": "Everyone together.",
+        "outcome": "Eating and Praising",
+        "flag": ""
+      }
+    },
+    {
+      "n": 51,
+      "ref": "48",
+      "day": 2,
+      "start": "23:30",
+      "end": "01:00",
+      "durMin": 90,
+      "absStart": 2850,
+      "absEnd": 2940,
+      "section": "Ministry",
+      "sectionColor": "#7A5CA8",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "DIR"
+      ],
+      "tasks": {
+        "LOG": "Bring the Keyboard and Music Equipment by the Fire",
+        "ADM": "Be at the Fire",
+        "KIT": "Be at the Fire",
+        "INT": "Be at the Fire",
+        "WOR": "Worship Keyboard and Mic Ready(Fire Play List)",
+        "HAK": "Be at the Fire",
+        "TRB": "Be at the Fire",
+        "VOZ": "Gather Travelers for the teaching"
+      },
+      "en": {
+        "block": "Servers' Vigil & Midnight Prayer",
+        "section": "Ministry",
+        "activity": "MIDNIGHT PRAYER — CAMPFIRE",
+        "lead": "Pastor Jeff / Gus",
+        "direction": "By the Fore",
+        "outcome": "Midnight Prayer Teaching",
+        "flag": ""
+      }
+    },
+    {
+      "n": 52,
+      "ref": "49",
+      "day": 2,
+      "start": "01:00",
+      "end": "06:30",
+      "durMin": 330,
+      "absStart": 2940,
+      "absEnd": 3270,
+      "section": "Camp & Rest",
+      "sectionColor": "#55606E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "Back to Camp",
+        "ADM": "Back to Camp",
+        "KIT": "Back to Camp",
+        "INT": "Back to Camp",
+        "WOR": "Back to Camp",
+        "HAK": "Back to Camp",
+        "TRB": "Back to Camp",
+        "VOZ": "Back to Camp"
+      },
+      "en": {
+        "block": "Servers' Vigil & Midnight Prayer",
+        "section": "Camp & Rest",
+        "activity": "Legendaries go to sleep and leave the Travelers",
+        "lead": "EVERYONE",
+        "direction": "Travelers may stay by the campfire as long as they want",
+        "outcome": "General Silence",
+        "flag": "Legendaries sleep until 06:30, but the Day 3 Alignment Meeting starts at 06:00. Overlaps by 30 minutes."
+      }
+    },
+    {
+      "n": 53,
+      "ref": "50",
+      "day": 3,
+      "start": "06:00",
+      "end": "06:30",
+      "durMin": 30,
+      "absStart": 3240,
+      "absEnd": 3270,
+      "section": "Logistics Op",
+      "sectionColor": "#1E7A5F",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "DIR"
+      ],
+      "tasks": {
+        "LOG": "Be at the Aligment meeting",
+        "ADM": "Be at the Aligment meeting",
+        "KIT": "Be at the Aligment meeting",
+        "INT": "Be at the Aligment meeting",
+        "WOR": "Be at the Aligment meeting",
+        "HAK": "Be at the Aligment meeting",
+        "TRB": "Be at the Aligment meeting",
+        "VOZ": "Be at the Aligment meeting"
+      },
+      "en": {
+        "block": "Reveille, Sneaker Awards & Teachings",
+        "section": "Logistics Op",
+        "activity": "Aligment Meeting",
+        "lead": "Directors",
+        "direction": "Speak about the Day",
+        "outcome": "Be on time",
+        "flag": ""
+      }
+    },
+    {
+      "n": 54,
+      "ref": "51",
+      "day": 3,
+      "start": "07:00",
+      "end": "07:30",
+      "durMin": 30,
+      "absStart": 3300,
+      "absEnd": 3330,
+      "section": "Camp & Rest",
+      "sectionColor": "#55606E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT"
+      ],
+      "tasks": {
+        "LOG": "Hed to the travelers camp",
+        "ADM": "Hed to the travelers camp",
+        "KIT": "Clean Up Breakfast Area",
+        "INT": "Head to the camp and start praying",
+        "WOR": "Worship — Fire Playlist",
+        "HAK": "Join the team at the travelers camp",
+        "TRB": "Wake up with order and love",
+        "VOZ": "Wake up with order and love"
+      },
+      "en": {
+        "block": "Reveille, Sneaker Awards & Teachings",
+        "section": "Camp & Rest",
+        "activity": "Wake the Travelers with music and clean the area",
+        "lead": "Voice and Events",
+        "direction": "Wake up with order and love",
+        "outcome": "Do not delay departure",
+        "flag": ""
+      }
+    },
+    {
+      "n": 55,
+      "ref": "52",
+      "day": 3,
+      "start": "07:30",
+      "end": "07:45",
+      "durMin": 15,
+      "absStart": 3330,
+      "absEnd": 3345,
+      "section": "Meal",
+      "sectionColor": "#B0562A",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT"
+      ],
+      "tasks": {
+        "LOG": "Prepare Mic and Box",
+        "ADM": "Bring The Sneakers, Gatorade and Letters",
+        "KIT": "Hed to the travelers camp",
+        "INT": "Head to the camp and start praying",
+        "WOR": "Worship — Fire Playlist",
+        "HAK": "Join the team at the travelers camp",
+        "TRB": "Join the travelers",
+        "VOZ": "Direct the travelers to the awards area"
+      },
+      "en": {
+        "block": "Reveille, Sneaker Awards & Teachings",
+        "section": "Meal",
+        "activity": "Breakfast",
+        "lead": "Voice and Events",
+        "direction": "Events Team.",
+        "outcome": "leave everything in order",
+        "flag": ""
+      }
+    },
+    {
+      "n": 56,
+      "ref": "53",
+      "day": 3,
+      "start": "07:45",
+      "end": "09:45",
+      "durMin": 120,
+      "absStart": 3345,
+      "absEnd": 3465,
+      "section": "Ceremony",
+      "sectionColor": "#E8821E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "DIR"
+      ],
+      "tasks": {
+        "LOG": "Support the Testimonies",
+        "ADM": "Provide the items as needed by the team",
+        "KIT": "Stay with travelers",
+        "INT": "Pray for the testimonies",
+        "WOR": "Stay with travelers",
+        "HAK": "Stay with travelers. Check if anybody need assistance",
+        "TRB": "Stay with travelers",
+        "VOZ": "Stay with travelers"
+      },
+      "en": {
+        "block": "Reveille, Sneaker Awards & Teachings",
+        "section": "Ceremony",
+        "activity": "Sneaker Awards — - EVERYONE TOGETHER",
+        "lead": "Directors",
+        "direction": "All teams supporting",
+        "outcome": "TESTIMONIES AND TEACHINGS / LETTERS",
+        "flag": ""
+      }
+    },
+    {
+      "n": 57,
+      "ref": "54",
+      "day": 3,
+      "start": "09:45",
+      "end": "10:00",
+      "durMin": 15,
+      "absStart": 3465,
+      "absEnd": 3480,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Stay with travelers",
+        "ADM": "Back to the camp to prepare shirts",
+        "KIT": "Stay with travelers",
+        "INT": "Pray for the speaker",
+        "WOR": "Stay with travelers",
+        "HAK": "Stay with travelers",
+        "TRB": "Stay with travelers",
+        "VOZ": "Stay with travelers"
+      },
+      "en": {
+        "block": "Reveille, Sneaker Awards & Teachings",
+        "section": "Teaching",
+        "activity": "AVOIDING RESPONSIBILITY — EVERYONE TOGETHER",
+        "lead": "Thiago Cuppertino",
+        "direction": "All teams supporting",
+        "outcome": "RESPONSIBILITY AVOIDERS.",
+        "flag": ""
+      }
+    },
+    {
+      "n": 58,
+      "ref": "55",
+      "day": 3,
+      "start": "10:00",
+      "end": "10:30",
+      "durMin": 30,
+      "absStart": 3480,
+      "absEnd": 3510,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Get the area of the camp cleared and move the travelers camp",
+        "ADM": "Back to the camp to prepare shirts",
+        "KIT": "Go back to the camp",
+        "INT": "Pray over the path and Mountain",
+        "WOR": "Pray over the path and Mountain",
+        "HAK": "Get on the path to the next spot and stay alert",
+        "TRB": "Stay with the Travelers",
+        "VOZ": "Guide them to the next path"
+      },
+      "en": {
+        "block": "Reveille, Sneaker Awards & Teachings",
+        "section": "Walk",
+        "activity": "Walk to the next Preaching",
+        "lead": "Voices",
+        "direction": "Take them to the Mountain",
+        "outcome": "Get to the next preaching",
+        "flag": "Numbered 55 in the source, same as the next cue. Both start at 10:00: this walk runs 10:00–10:30 while Give Me This Mountain runs 10:00–10:15 and Walk 2.0 starts at 10:15. Confirm the order and times."
+      }
+    },
+    {
+      "n": 59,
+      "ref": "55b",
+      "day": 3,
+      "start": "10:00",
+      "end": "10:15",
+      "durMin": 15,
+      "absStart": 3480,
+      "absEnd": 3495,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Move Camp to the final place",
+        "ADM": "Back to the camp to prepare shirts",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray for the Speaker",
+        "WOR": "Pray for the Speaker",
+        "HAK": "Check on the travelers",
+        "TRB": "Stay with travelers",
+        "VOZ": "Gather them for the preching"
+      },
+      "en": {
+        "block": "Reveille, Sneaker Awards & Teachings",
+        "section": "Teaching",
+        "activity": "GIVE ME THIS MOUNTAIN — EVERYONE TOGETHER",
+        "lead": "Karim",
+        "direction": "All teams supporting",
+        "outcome": "\"GIVE ME THIS MOUNTAIN\"",
+        "flag": "Also numbered 55 in the source — duplicate of the previous cue. Starts at the same time as the walk before it."
+      }
+    },
+    {
+      "n": 60,
+      "ref": "56",
+      "day": 3,
+      "start": "10:15",
+      "end": "11:45",
+      "durMin": 90,
+      "absStart": 3495,
+      "absEnd": 3585,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT",
+        "DIR",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "Finish up moving traveler belongings",
+        "ADM": "Bring the Compass to Intercession",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray over the Ventilation area",
+        "WOR": "Pray over the travelers",
+        "HAK": "Walk with the Travelers",
+        "TRB": "Stay with the Travelers",
+        "VOZ": "Guide the travelers to the ventilation area"
+      },
+      "en": {
+        "block": "Walk 2.0 & the Compass",
+        "section": "Walk",
+        "activity": "Walk 2.0",
+        "lead": "EVERYONE",
+        "direction": "Events Director and Assistant Director.",
+        "outcome": "Get to the next preaching",
+        "flag": ""
+      }
+    },
+    {
+      "n": 61,
+      "ref": "57",
+      "day": 3,
+      "start": "11:45",
+      "end": "12:05",
+      "durMin": 20,
+      "absStart": 3585,
+      "absEnd": 3605,
+      "section": "Ministry",
+      "sectionColor": "#7A5CA8",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Finish up moving traveler belongings",
+        "ADM": "Deliver Compass to Intercession",
+        "KIT": "Prepare Dinner",
+        "INT": "Teach the Compass to travelers",
+        "WOR": "Sing: Fire Songs",
+        "HAK": "Check on the travelers",
+        "TRB": "Stay with the travelers",
+        "VOZ": "Get the travelers to the ventilation areas"
+      },
+      "en": {
+        "block": "Walk 2.0 & the Compass",
+        "section": "Ministry",
+        "activity": "VENTILATION — COMPASS",
+        "lead": "INTERCESSORS",
+        "direction": "Each Pastor responsible for their Tribe accompanies the venting session",
+        "outcome": "Help the travelers stay correctly oriented",
+        "flag": ""
+      }
+    },
+    {
+      "n": 62,
+      "ref": "58",
+      "day": 3,
+      "start": "12:05",
+      "end": "13:35",
+      "durMin": 90,
+      "absStart": 3605,
+      "absEnd": 3695,
+      "section": "Meal",
+      "sectionColor": "#B0562A",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT"
+      ],
+      "tasks": {
+        "LOG": "Head to the Baptism Area",
+        "ADM": "Head to the Baptism Area",
+        "KIT": "Head to the Baptism Area",
+        "INT": "Head to the Baptism Area",
+        "WOR": "Head to the Baptism Area",
+        "HAK": "LUNCH BEFORE THE WALK / Walk to the baptism",
+        "TRB": "Stay with the Travelers",
+        "VOZ": "Guide travelers to the Baptism Area"
+      },
+      "en": {
+        "block": "Walk 2.0 & the Compass",
+        "section": "Meal",
+        "activity": "LUNCH BEFORE THE WALK / Walk to the baptism",
+        "lead": "Events and Hakunas",
+        "direction": "Put them together with their families",
+        "outcome": "Feed the travelers",
+        "flag": ""
+      }
+    },
+    {
+      "n": 63,
+      "ref": "59",
+      "day": 3,
+      "start": "13:35",
+      "end": "15:05",
+      "durMin": 90,
+      "absStart": 3695,
+      "absEnd": 3785,
+      "section": "Ministry",
+      "sectionColor": "#7A5CA8",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Stay with travelers",
+        "ADM": "Stay with travelers",
+        "KIT": "Stay with travelers",
+        "INT": "Pray over the travelers",
+        "WOR": "Sing: Baptism Songs",
+        "HAK": "Stay with travelers",
+        "TRB": "Stay with travelers",
+        "VOZ": "Guide Them to the Baptism lines"
+      },
+      "en": {
+        "block": "Baptism",
+        "section": "Ministry",
+        "activity": "VENTILATION / BAPTISM — EVERYONE TOGETHER",
+        "lead": "1 PASTOR FOR 10 MINUTES TO GIVE THE EXPLANATION",
+        "direction": "Pastors lined up in the water, ready for baptism; the entire team praying and interceding",
+        "outcome": "Baptize those who decide to say yes",
+        "flag": ""
+      }
+    },
+    {
+      "n": 64,
+      "ref": "60",
+      "day": 3,
+      "start": "15:05",
+      "end": "15:35",
+      "durMin": 30,
+      "absStart": 3785,
+      "absEnd": 3815,
+      "section": "Ministry",
+      "sectionColor": "#7A5CA8",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Stay with the travelers",
+        "ADM": "Stay with the travelers",
+        "KIT": "Stay with the travelers",
+        "INT": "Stay with the travelers",
+        "WOR": "Stay with the travelers",
+        "HAK": "Stay with the travelers",
+        "TRB": "Stay with the travelers",
+        "VOZ": "Stay with the travelers"
+      },
+      "en": {
+        "block": "Baptism",
+        "section": "Ministry",
+        "activity": "One family at a time / remove flags",
+        "lead": "Voices",
+        "direction": "Send them to the waters",
+        "outcome": "Get them Baptized",
+        "flag": ""
+      }
+    },
+    {
+      "n": 65,
+      "ref": "61",
+      "day": 3,
+      "start": "15:35",
+      "end": "15:55",
+      "durMin": 20,
+      "absStart": 3815,
+      "absEnd": 3835,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Prepare the Extra Mile",
+        "ADM": "Head back to the camp",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray over everyones safety",
+        "WOR": "Pray over everyones safety",
+        "HAK": "Stay alert for any injuries from a possible confrontation",
+        "TRB": "Stay with travelers",
+        "VOZ": "Pu the travelers in formation for the teaching"
+      },
+      "en": {
+        "block": "The Sentinel & the Extra Mile",
+        "section": "Teaching",
+        "activity": "SENTINEL (FLAG) — EVERYONE TOGETHER",
+        "lead": "Dani Tavarez",
+        "direction": "Gather the Flags",
+        "outcome": "Teach to protect the GAP",
+        "flag": ""
+      }
+    },
+    {
+      "n": 66,
+      "ref": "62",
+      "day": 3,
+      "start": "15:55",
+      "end": "16:10",
+      "durMin": 15,
+      "absStart": 3835,
+      "absEnd": 3850,
+      "section": "Logistics Op",
+      "sectionColor": "#1E7A5F",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "Prepare the Extra Mile",
+        "ADM": "Stay at the camp",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray over the travelers for restoration",
+        "WOR": "Pray over the travelers for restoration",
+        "HAK": "Check hydrattion and bring Electrolyctes if needed",
+        "TRB": "Stay with the travelers",
+        "VOZ": "Guide the travelers to the resting area"
+      },
+      "en": {
+        "block": "The Sentinel & the Extra Mile",
+        "section": "Logistics Op",
+        "activity": "DRINK WATER / ORGANIZE GROUPS / RESTROOM",
+        "lead": "EVERYONE",
+        "direction": "Gather with their family",
+        "outcome": "Rest",
+        "flag": ""
+      }
+    },
+    {
+      "n": 67,
+      "ref": "63",
+      "day": 3,
+      "start": "16:10",
+      "end": "16:40",
+      "durMin": 30,
+      "absStart": 3850,
+      "absEnd": 3880,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT"
+      ],
+      "tasks": {
+        "LOG": "Prepare the Extra Mile",
+        "ADM": "Stay at the camp",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray over the course",
+        "WOR": "Pray over the course",
+        "HAK": "Keep an eye for potential injuries",
+        "TRB": "Stay with the travelers",
+        "VOZ": "Guide the travelers"
+      },
+      "en": {
+        "block": "The Sentinel & the Extra Mile",
+        "section": "Walk",
+        "activity": "Walk to the Extra Mile teaching",
+        "lead": "Events",
+        "direction": "Keep moving forward",
+        "outcome": "Get to the next preaching",
+        "flag": ""
+      }
+    },
+    {
+      "n": 68,
+      "ref": "64",
+      "day": 3,
+      "start": "16:40",
+      "end": "17:00",
+      "durMin": 20,
+      "absStart": 3880,
+      "absEnd": 3900,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Prepare the mud Pit",
+        "ADM": "Stay at the camp",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray over travelers safety",
+        "WOR": "Pray over travelers safety",
+        "HAK": "Keep an eye for potential injuries",
+        "TRB": "Stay with the travelers",
+        "VOZ": "EXTRA MILE TEACHING"
+      },
+      "en": {
+        "block": "The Sentinel & the Extra Mile",
+        "section": "Teaching",
+        "activity": "EXTRA MILE TEACHING",
+        "lead": "VOICES",
+        "direction": "Keep Pushing",
+        "outcome": "Give your best",
+        "flag": ""
+      }
+    },
+    {
+      "n": 69,
+      "ref": "65",
+      "day": 3,
+      "start": "17:00",
+      "end": "17:40",
+      "durMin": 40,
+      "absStart": 3900,
+      "absEnd": 3940,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Prepare the mud Pit",
+        "ADM": "Stay at the camp",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray over travelers safety",
+        "WOR": "Pray over travelers safety",
+        "HAK": "Keep an eye for potential injuries",
+        "TRB": "Stay with the travelers",
+        "VOZ": "Make sure Travelers are exausted"
+      },
+      "en": {
+        "block": "The Sentinel & the Extra Mile",
+        "section": "Walk",
+        "activity": "Walk / Intense Exercises",
+        "lead": "VOICE",
+        "direction": "Exercise and tire them out",
+        "outcome": "Arrive at the next activity very tired",
+        "flag": ""
+      }
+    },
+    {
+      "n": 70,
+      "ref": "66",
+      "day": 3,
+      "start": "17:40",
+      "end": "18:00",
+      "durMin": 20,
+      "absStart": 3940,
+      "absEnd": 3960,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Prepare the mud Pit",
+        "ADM": "Travel to the Mud Pit",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray over the speaker",
+        "WOR": "Pray over the speaker",
+        "HAK": "Keep an eye for potential injuries",
+        "TRB": "Stay with the travelers",
+        "VOZ": "Gather travelers in formation"
+      },
+      "en": {
+        "block": "Two Are Better Than One & the Mud Fight",
+        "section": "Teaching",
+        "activity": "TWO ARE BETTER THAN ONE",
+        "lead": "Dani / Rob",
+        "direction": "We need to stay together to protect one another",
+        "outcome": "We are stronger together",
+        "flag": ""
+      }
+    },
+    {
+      "n": 71,
+      "ref": "67",
+      "day": 3,
+      "start": "18:00",
+      "end": "18:30",
+      "durMin": 30,
+      "absStart": 3960,
+      "absEnd": 3990,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Prepare the mud Pit",
+        "ADM": "Travel to the Mud Pit",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray over the Mud Pit",
+        "WOR": "Pray over the Mud Pit",
+        "HAK": "Keep an eye for potential injuries",
+        "TRB": "Stay with the travelers",
+        "VOZ": "WALK TO THE BATTLE"
+      },
+      "en": {
+        "block": "Two Are Better Than One & the Mud Fight",
+        "section": "Walk",
+        "activity": "WALK TO THE BATTLE",
+        "lead": "VOICE",
+        "direction": "Head to the mud pit",
+        "outcome": "Get travelers inside the mud pit",
+        "flag": ""
+      }
+    },
+    {
+      "n": 72,
+      "ref": "68",
+      "day": 3,
+      "start": "18:30",
+      "end": "20:00",
+      "durMin": 90,
+      "absStart": 3990,
+      "absEnd": 4080,
+      "section": "Challenge",
+      "sectionColor": "#C8102E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT",
+        "DIR"
+      ],
+      "tasks": {
+        "LOG": "Join the travelers",
+        "ADM": "Join the travelers",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray for the travelers safety",
+        "WOR": "Pray for the travelers safety",
+        "HAK": "Join the travelers",
+        "TRB": "Join the travelers",
+        "VOZ": "Join the travelers"
+      },
+      "en": {
+        "block": "Two Are Better Than One & the Mud Fight",
+        "section": "Challenge",
+        "activity": "MUD FIGHT — EVERYONE TOGETHER",
+        "lead": "VOICES",
+        "direction": "Events Director and Assistant Director.",
+        "outcome": "Learn how to fight",
+        "flag": ""
+      }
+    },
+    {
+      "n": 73,
+      "ref": "69",
+      "day": 3,
+      "start": "20:00",
+      "end": "20:30",
+      "durMin": 30,
+      "absStart": 4080,
+      "absEnd": 4110,
+      "section": "Logistics Op",
+      "sectionColor": "#1E7A5F",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "ENSURE EVERYONE CAN WASH OFF THE MUD FROM THE BATTLE",
+        "ADM": "Head back to the camp",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray over the water that will wash the travelers",
+        "WOR": "Pray over the water that will wash the travelers",
+        "HAK": "Join the travelers",
+        "TRB": "Direct travelers to the washing station",
+        "VOZ": "Gather travelers in formation"
+      },
+      "en": {
+        "block": "Two Are Better Than One & the Mud Fight",
+        "section": "Logistics Op",
+        "activity": "WASH THE TRAVELERS",
+        "lead": "LOGISTICS",
+        "direction": "ENSURE EVERYONE CAN WASH OFF THE MUD FROM THE BATTLE",
+        "outcome": "Get travelers clean again",
+        "flag": ""
+      }
+    },
+    {
+      "n": 74,
+      "ref": "70",
+      "day": 3,
+      "start": "20:30",
+      "end": "21:00",
+      "durMin": 30,
+      "absStart": 4110,
+      "absEnd": 4140,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "Prepare the logs",
+        "ADM": "Head back to the camp",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray over the path to the logs",
+        "WOR": "Pray over the path to the logs",
+        "HAK": "Join the travelers",
+        "TRB": "Walk to the log path to recite Isaiah",
+        "VOZ": "Gather travelers in formation"
+      },
+      "en": {
+        "block": "Simon of Cyrene & the Cross",
+        "section": "Walk",
+        "activity": "Walk to SIMON OF CYRENE",
+        "lead": "EVERYONE",
+        "direction": "Prepare Travelers to receive the teaching",
+        "outcome": "Have travelers in formation to listen",
+        "flag": ""
+      }
+    },
+    {
+      "n": 75,
+      "ref": "71",
+      "day": 3,
+      "start": "21:00",
+      "end": "21:20",
+      "durMin": 20,
+      "absStart": 4140,
+      "absEnd": 4160,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Prepare the logs",
+        "ADM": "Stay at the camp",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray over the logs",
+        "WOR": "Pray over the logs",
+        "HAK": "Keep an eye for potential injuries",
+        "TRB": "Recite Isaiah",
+        "VOZ": "Direct them to the path"
+      },
+      "en": {
+        "block": "Simon of Cyrene & the Cross",
+        "section": "Teaching",
+        "activity": "SIMON OF CYRENE — EVERYONE TOGETHER",
+        "lead": "Henrique",
+        "direction": "Get them ready to walk",
+        "outcome": "Direct them to their logs",
+        "flag": ""
+      }
+    },
+    {
+      "n": 76,
+      "ref": "72",
+      "day": 3,
+      "start": "21:20",
+      "end": "21:50",
+      "durMin": 30,
+      "absStart": 4160,
+      "absEnd": 4190,
+      "section": "Logistics Op",
+      "sectionColor": "#1E7A5F",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Provide the logs. Make sure it is free from any animal (Mainly Snakes)",
+        "ADM": "Stay at the camp",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray over the path to the cross",
+        "WOR": "Pray over the path to the cross",
+        "HAK": "Keep an eye for potential injuries",
+        "TRB": "Recite Isaiah",
+        "VOZ": "Direct travelers"
+      },
+      "en": {
+        "block": "Simon of Cyrene & the Cross",
+        "section": "Logistics Op",
+        "activity": "Give logs to the Travelers",
+        "lead": "Logistics",
+        "direction": "By Tribe, one by one",
+        "outcome": "Teaching: \"Simon of Cyrene\".",
+        "flag": ""
+      }
+    },
+    {
+      "n": 77,
+      "ref": "73",
+      "day": 3,
+      "start": "21:50",
+      "end": "22:20",
+      "durMin": 30,
+      "absStart": 4190,
+      "absEnd": 4220,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT"
+      ],
+      "tasks": {
+        "LOG": "Hand travelers the logs",
+        "ADM": "Stay at the camp",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray over the path to the cross",
+        "WOR": "Pray over the path to the cross",
+        "HAK": "Keep an eye for potential injuries",
+        "TRB": "Recite Isaiah",
+        "VOZ": "Direct travelers"
+      },
+      "en": {
+        "block": "Simon of Cyrene & the Cross",
+        "section": "Walk",
+        "activity": "Walk carrying the logs to the cross",
+        "lead": "Events",
+        "direction": "Tribe Leaders reading Isaiah 53:3-12",
+        "outcome": "Remember who is the one who deliver from suffering",
+        "flag": ""
+      }
+    },
+    {
+      "n": 78,
+      "ref": "74",
+      "day": 3,
+      "start": "22:20",
+      "end": "22:25",
+      "durMin": 5,
+      "absStart": 4220,
+      "absEnd": 4225,
+      "section": "Ministry",
+      "sectionColor": "#7A5CA8",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "DIR"
+      ],
+      "tasks": {
+        "LOG": "Retrieve the logs",
+        "ADM": "Stay at the camp",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray at the cross to receive travelers",
+        "WOR": "Start Worship",
+        "HAK": "Keep an eye for potential injuries",
+        "TRB": "Recite Isaiah",
+        "VOZ": "Direct travelers"
+      },
+      "en": {
+        "block": "Simon of Cyrene & the Cross",
+        "section": "Ministry",
+        "activity": "Unload the logs and line up the Travelers near the cross",
+        "lead": "Logistics / Directors / Pastors",
+        "direction": "With great love and respect in this moment. Reflection on the time when Christ was crucified",
+        "outcome": "Venting Session and Testimonies",
+        "flag": ""
+      }
+    },
+    {
+      "n": 79,
+      "ref": "75",
+      "day": 3,
+      "start": "22:25",
+      "end": "22:45",
+      "durMin": 20,
+      "absStart": 4225,
+      "absEnd": 4245,
+      "section": "Ceremony",
+      "sectionColor": "#E8821E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Get the gradutation area ready",
+        "ADM": "Stay at the camp",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray over the speaker",
+        "WOR": "Sing: Fire Play List",
+        "HAK": "Keep an eye for potential injuries",
+        "TRB": "Join the travelers",
+        "VOZ": "Gather travelers around the fire"
+      },
+      "en": {
+        "block": "Simon of Cyrene & the Cross",
+        "section": "Ceremony",
+        "activity": "SURRENDER EVERYTHING",
+        "lead": "Marcelo Costa",
+        "direction": "Surrender everything to Christ and trust that all provision comes from Him",
+        "outcome": "Leave all addictions, sins, desires, and the old self at the cross",
+        "flag": ""
+      }
+    },
+    {
+      "n": 80,
+      "ref": "76",
+      "day": 3,
+      "start": "22:45",
+      "end": "23:05",
+      "durMin": 20,
+      "absStart": 4245,
+      "absEnd": 4265,
+      "section": "Ceremony",
+      "sectionColor": "#E8821E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Get the gradutation area ready",
+        "ADM": "Head to the gradutation area",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray over the travelers",
+        "WOR": "Sing: Fire Play List",
+        "HAK": "Keep an eye for potential injuries",
+        "TRB": "Join the travelers",
+        "VOZ": "Gather travelers around the fire"
+      },
+      "en": {
+        "block": "Simon of Cyrene & the Cross",
+        "section": "Ceremony",
+        "activity": "OFFER YOUR PROVISION",
+        "lead": "Marcelo Costa",
+        "direction": "Surrender everything to Christ and trust that all provision comes from Him",
+        "outcome": "Leave all your provision at the Cross",
+        "flag": ""
+      }
+    },
+    {
+      "n": 81,
+      "ref": "77",
+      "day": 3,
+      "start": "23:05",
+      "end": "23:20",
+      "durMin": 15,
+      "absStart": 4265,
+      "absEnd": 4280,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT"
+      ],
+      "tasks": {
+        "LOG": "Get the gradutation area ready",
+        "ADM": "Bring the shirts to the delivery area",
+        "KIT": "Prepare Dinner",
+        "INT": "Pray over the shirts",
+        "WOR": "Pray over the shirts",
+        "HAK": "Join the travelers",
+        "TRB": "Light the Tikki Torches",
+        "VOZ": "Walk together with flashlights off (Voice walking backward with lights shining toward the new LGNDs)"
+      },
+      "en": {
+        "block": "Graduation",
+        "section": "Walk",
+        "activity": "Walk to the graduation area",
+        "lead": "Voice and Events",
+        "direction": "Walk together with flashlights off (Voice walking backward with lights shining toward the new LGNDs)",
+        "outcome": "They saw nothing",
+        "flag": ""
+      }
+    },
+    {
+      "n": 82,
+      "ref": "78",
+      "day": 3,
+      "start": "23:20",
+      "end": "23:35",
+      "durMin": 15,
+      "absStart": 4280,
+      "absEnd": 4295,
+      "section": "Ceremony",
+      "sectionColor": "#E8821E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "Stay in line to receive new Legendarios",
+        "ADM": "Stay in line to receive new Legendarios",
+        "KIT": "Stay in line to receive new Legendarios",
+        "INT": "Stay in line to receive new Legendarios",
+        "WOR": "Stay in line to receive new Legendarios",
+        "HAK": "Stay in line to receive new Legendarios",
+        "TRB": "Celebrate the moment",
+        "VOZ": "Guide New Legenadrios"
+      },
+      "en": {
+        "block": "Graduation",
+        "section": "Ceremony",
+        "activity": "Shirt Presentation",
+        "lead": "TRIBE LEADERS",
+        "direction": "Everyone united; read the name of each new Legendary during the presentation.",
+        "outcome": "Celebrate the moment",
+        "flag": ""
+      }
+    },
+    {
+      "n": 83,
+      "ref": "79",
+      "day": 3,
+      "start": "23:35",
+      "end": "23:45",
+      "durMin": 10,
+      "absStart": 4295,
+      "absEnd": 4305,
+      "section": "Ceremony",
+      "sectionColor": "#E8821E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Get Ready to Illuminate the Banner",
+        "ADM": "Stay in line to receive new Legendarios",
+        "KIT": "Stay in line to receive new Legendarios",
+        "INT": "Stay in line to receive new Legendarios",
+        "WOR": "Stay in line to receive new Legendarios",
+        "HAK": "Stay in line to receive new Legendarios",
+        "TRB": "Stay in line to receive new Legendarios",
+        "VOZ": "All teams supporting"
+      },
+      "en": {
+        "block": "Graduation",
+        "section": "Ceremony",
+        "activity": "LEGENDARIO MOTTO",
+        "lead": "VOICES",
+        "direction": "All teams supporting",
+        "outcome": "Know that it depends on God",
+        "flag": ""
+      }
+    },
+    {
+      "n": 84,
+      "ref": "80",
+      "day": 3,
+      "start": "23:45",
+      "end": "00:00",
+      "durMin": 15,
+      "absStart": 4305,
+      "absEnd": 4320,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT"
+      ],
+      "tasks": {
+        "LOG": "Head to the feast",
+        "ADM": "Head to the feast",
+        "KIT": "Serve Dinner",
+        "INT": "Head to the feast",
+        "WOR": "Head to the feast",
+        "HAK": "Head to the feast",
+        "TRB": "Head to the feast",
+        "VOZ": "Walk together with flashlights off (Voice walking backward with lights shining toward the new LGNDs)"
+      },
+      "en": {
+        "block": "The King's Scene & Enrollment",
+        "section": "Walk",
+        "activity": "Walk to the King's Scene",
+        "lead": "Voice and Events",
+        "direction": "Walk together with flashlights off (Voice walking backward with lights shining toward the new LGNDs)",
+        "outcome": "They see nothing until reaching the welcome area",
+        "flag": ""
+      }
+    },
+    {
+      "n": 85,
+      "ref": "81",
+      "day": 3,
+      "start": "00:00",
+      "end": "02:00",
+      "durMin": 120,
+      "absStart": 4320,
+      "absEnd": 4440,
+      "section": "Meal",
+      "sectionColor": "#B0562A",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Have dinner with everyone",
+        "ADM": "Have dinner with everyone",
+        "KIT": "Serve Dinner",
+        "INT": "Have dinner with everyone",
+        "WOR": "Have dinner with everyone",
+        "HAK": "Have dinner with everyone",
+        "TRB": "Have dinner with everyone",
+        "VOZ": "Have dinner with everyone"
+      },
+      "en": {
+        "block": "The King's Scene & Enrollment",
+        "section": "Meal",
+        "activity": "King's Feast",
+        "lead": "secret",
+        "direction": "Be ready before the Travelers arrive",
+        "outcome": "Do not delay dinner",
+        "flag": ""
+      }
+    },
+    {
+      "n": 86,
+      "ref": "82",
+      "day": 3,
+      "start": "00:30",
+      "end": "00:40",
+      "durMin": 10,
+      "absStart": 4350,
+      "absEnd": 4360,
+      "section": "Media",
+      "sectionColor": "#0E8F9E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "MED",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "Watch Video",
+        "ADM": "Watch Video",
+        "KIT": "Watch Video",
+        "INT": "Watch Video",
+        "WOR": "Watch Video",
+        "HAK": "Watch Video",
+        "TRB": "Watch Video",
+        "VOZ": "Watch Video"
+      },
+      "en": {
+        "block": "The King's Scene & Enrollment",
+        "section": "Media",
+        "activity": "Media Video",
+        "lead": "Media team",
+        "direction": "Ask everyone to focus on the Screen",
+        "outcome": "Relive the experience",
+        "flag": "Runs inside the King's Feast (00:00–02:00). Kept as a parallel cue."
+      }
+    },
+    {
+      "n": 87,
+      "ref": "83",
+      "day": 3,
+      "start": "02:00",
+      "end": "02:30",
+      "durMin": 30,
+      "absStart": 4440,
+      "absEnd": 4470,
+      "section": "Registration",
+      "sectionColor": "#4A6FA5",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Help Admin set up the area to deliver hats",
+        "ADM": "REGISTER BY FAMILY",
+        "KIT": "Clean secret area",
+        "INT": "Finisehd for the day",
+        "WOR": "Finisehd for the day",
+        "HAK": "Finisehd for the day",
+        "TRB": "Finisehd for the day",
+        "VOZ": "Finisehd for the day"
+      },
+      "en": {
+        "block": "The King's Scene & Enrollment",
+        "section": "Registration",
+        "activity": "Presentation of caps, pins, and patches Register new Legendaries in the official record",
+        "lead": "ADM",
+        "direction": "REGISTER ALL TRAVELERS IN THE BOOK WITH THEIR LEGENDARY NUMBER",
+        "outcome": "REGISTER BY FAMILY",
+        "flag": ""
+      }
+    },
+    {
+      "n": 88,
+      "ref": "84",
+      "day": 3,
+      "start": "02:30",
+      "end": "03:00",
+      "durMin": 30,
+      "absStart": 4470,
+      "absEnd": 4500,
+      "section": "Camp & Rest",
+      "sectionColor": "#55606E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Rest",
+        "ADM": "Rest",
+        "KIT": "Rest",
+        "INT": "Rest",
+        "WOR": "Rest",
+        "HAK": "Rest",
+        "TRB": "Rest",
+        "VOZ": "Go rest because we still have a big day tomorrow (Nothing Changed)"
+      },
+      "en": {
+        "block": "The King's Scene & Enrollment",
+        "section": "Camp & Rest",
+        "activity": "Set up camp and sleep",
+        "lead": "Voice",
+        "direction": "Go rest because we still have a big day tomorrow (Nothing Changed)",
+        "outcome": "",
+        "flag": ""
+      }
+    },
+    {
+      "n": 89,
+      "ref": "85",
+      "day": 4,
+      "start": "06:30",
+      "end": "07:00",
+      "durMin": 30,
+      "absStart": 4710,
+      "absEnd": 4740,
+      "section": "Logistics Op",
+      "sectionColor": "#1E7A5F",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "DIR"
+      ],
+      "tasks": {
+        "LOG": "Attend the meeting",
+        "ADM": "Attend the meeting",
+        "KIT": "Attend the meeting",
+        "INT": "Attend the meeting",
+        "WOR": "Attend the meeting",
+        "HAK": "Attend the meeting",
+        "TRB": "Attend the meeting",
+        "VOZ": "Attend the meeting"
+      },
+      "en": {
+        "block": "Breakdown & Departure",
+        "section": "Logistics Op",
+        "activity": "Aligment Meeting",
+        "lead": "Directors",
+        "direction": "Speak about the Day",
+        "outcome": "Be on time",
+        "flag": ""
+      }
+    },
+    {
+      "n": 90,
+      "ref": "86",
+      "day": 4,
+      "start": "07:00",
+      "end": "07:30",
+      "durMin": 30,
+      "absStart": 4740,
+      "absEnd": 4770,
+      "section": "Camp & Rest",
+      "sectionColor": "#55606E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT"
+      ],
+      "tasks": {
+        "LOG": "Get ready for day 4 activities",
+        "ADM": "Get ready for day 4 activities",
+        "KIT": "Get ready for day 4 activities",
+        "INT": "Get ready for day 4 activities",
+        "WOR": "Get ready for day 4 activities",
+        "HAK": "Get ready for day 4 activities",
+        "TRB": "Get ready for day 4 activities",
+        "VOZ": "Everything clean and ready to leave on time"
+      },
+      "en": {
+        "block": "Breakdown & Departure",
+        "section": "Camp & Rest",
+        "activity": "Complete general campsite cleanup",
+        "lead": "Events and Voice",
+        "direction": "Pack everything and leave the place better than we found it",
+        "outcome": "Everything clean and ready to leave on time",
+        "flag": ""
+      }
+    },
+    {
+      "n": 91,
+      "ref": "87",
+      "day": 4,
+      "start": "07:30",
+      "end": "08:30",
+      "durMin": 60,
+      "absStart": 4770,
+      "absEnd": 4830,
+      "section": "Meal",
+      "sectionColor": "#B0562A",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "MED"
+      ],
+      "tasks": {
+        "LOG": "Help anyone that needs support",
+        "ADM": "Help anyone that needs support",
+        "KIT": "May receive help from Logistics and Media if needed",
+        "INT": "Help anyone that needs support",
+        "WOR": "Help anyone that needs support",
+        "HAK": "Help anyone that needs support",
+        "TRB": "Help anyone that needs support",
+        "VOZ": "Help anyone that needs support"
+      },
+      "en": {
+        "block": "Breakdown & Departure",
+        "section": "Meal",
+        "activity": "Breakfast and greetings",
+        "lead": "secret",
+        "direction": "May receive help from Logistics and Media if needed",
+        "outcome": "Work as a team",
+        "flag": ""
+      }
+    },
+    {
+      "n": 92,
+      "ref": "88",
+      "day": 4,
+      "start": "08:30",
+      "end": "08:50",
+      "durMin": 20,
+      "absStart": 4830,
+      "absEnd": 4850,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "DIR",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "Attend the meeting",
+        "ADM": "Attend the meeting. bring the manifesto",
+        "KIT": "Attend the meeting",
+        "INT": "Attend the meeting",
+        "WOR": "Attend the meeting",
+        "HAK": "Attend the meeting",
+        "TRB": "Attend the meeting",
+        "VOZ": "Attend the meeting"
+      },
+      "en": {
+        "block": "Breakdown & Departure",
+        "section": "Teaching",
+        "activity": "Morning message / What happens on the mountain stays on the mountain. Expansion and Manifesto",
+        "lead": "Gus",
+        "direction": "We depend on everyone to keep the movement moving forward",
+        "outcome": "Return to serve",
+        "flag": ""
+      }
+    },
+    {
+      "n": 93,
+      "ref": "89",
+      "day": 4,
+      "start": "08:50",
+      "end": "09:30",
+      "durMin": 40,
+      "absStart": 4850,
+      "absEnd": 4890,
+      "section": "Media",
+      "sectionColor": "#0E8F9E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "MED"
+      ],
+      "tasks": {
+        "LOG": "Be attentive to the pictures",
+        "ADM": "Be attentive to the pictures",
+        "KIT": "Be attentive to the pictures",
+        "INT": "Be attentive to the pictures",
+        "WOR": "Be attentive to the pictures",
+        "HAK": "Be attentive to the pictures",
+        "TRB": "Be attentive to the pictures",
+        "VOZ": "Be attentive to the pictures"
+      },
+      "en": {
+        "block": "Breakdown & Departure",
+        "section": "Media",
+        "activity": "Photo of the Legendaries",
+        "lead": "Media",
+        "direction": "By Media",
+        "outcome": "",
+        "flag": ""
+      }
+    },
+    {
+      "n": 94,
+      "ref": "90",
+      "day": 4,
+      "start": "09:30",
+      "end": "10:00",
+      "durMin": 30,
+      "absStart": 4890,
+      "absEnd": 4920,
+      "section": "Logistics Op",
+      "sectionColor": "#1E7A5F",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "ALL"
+      ],
+      "tasks": {
+        "LOG": "Get everything ready",
+        "ADM": "Get everything ready",
+        "KIT": "Get everything ready",
+        "INT": "Get everything ready",
+        "WOR": "Get everything ready",
+        "HAK": "Get everything ready",
+        "TRB": "Get everything ready",
+        "VOZ": "Get everything ready"
+      },
+      "en": {
+        "block": "Breakdown & Departure",
+        "section": "Logistics Op",
+        "activity": "General campsite cleanup; everyone helps put away tables, chairs, etc.",
+        "lead": "ALL LEGENDARIES",
+        "direction": "Do it with excellence",
+        "outcome": "Leave the place better than we found it",
+        "flag": ""
+      }
+    },
+    {
+      "n": 95,
+      "ref": "91",
+      "day": 4,
+      "start": "10:00",
+      "end": "10:30",
+      "durMin": 30,
+      "absStart": 4920,
+      "absEnd": 4950,
+      "section": "Walk",
+      "sectionColor": "#2C4A6E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT"
+      ],
+      "tasks": {
+        "LOG": "Departure on time",
+        "ADM": "Departure on time",
+        "KIT": "Departure on time",
+        "INT": "Departure on time",
+        "WOR": "Departure on time",
+        "HAK": "Departure on time",
+        "TRB": "Departure on time",
+        "VOZ": "Departure on time"
+      },
+      "en": {
+        "block": "Breakdown & Departure",
+        "section": "Walk",
+        "activity": "Walk to the buses and teaching",
+        "lead": "Events and Intercession",
+        "direction": "Nothing changed",
+        "outcome": "Departure on time",
+        "flag": ""
+      }
+    },
+    {
+      "n": 96,
+      "ref": "92",
+      "day": 4,
+      "start": "10:30",
+      "end": "10:45",
+      "durMin": 15,
+      "absStart": 4950,
+      "absEnd": 4965,
+      "section": "Transport",
+      "sectionColor": "#6E7A8A",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT"
+      ],
+      "tasks": {
+        "LOG": "Departure on time",
+        "ADM": "Departure on time",
+        "KIT": "Departure on time",
+        "INT": "Departure on time",
+        "WOR": "Departure on time",
+        "HAK": "Departure on time",
+        "TRB": "Gather testimonies and send to the Director",
+        "VOZ": "Departure on time"
+      },
+      "en": {
+        "block": "Breakdown & Departure",
+        "section": "Transport",
+        "activity": "Board the buses",
+        "lead": "Events",
+        "direction": "Be efficient to avoid delays",
+        "outcome": "Departure on time",
+        "flag": "Source reads 10:30–10:30 with a 15-minute duration. End set to 10:45. The source still starts Travel to the Welcome area at 10:30, so boarding and travel overlap by 15 minutes — confirm the departure time."
+      }
+    },
+    {
+      "n": 97,
+      "ref": "93",
+      "day": 4,
+      "start": "10:30",
+      "end": "12:30",
+      "durMin": 120,
+      "absStart": 4950,
+      "absEnd": 5070,
+      "section": "Transport",
+      "sectionColor": "#6E7A8A",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT"
+      ],
+      "tasks": {
+        "LOG": "Drive Safe",
+        "ADM": "Make sure the bus does not drive too fast",
+        "KIT": "Drive Safe",
+        "INT": "Drive Safe",
+        "WOR": "Drive Safe",
+        "HAK": "Drive Safe",
+        "TRB": "Gather testimonies and send to the Director",
+        "VOZ": "Drive Safe"
+      },
+      "en": {
+        "block": "Return & Welcome Celebration",
+        "section": "Transport",
+        "activity": "Travel to the WELCOME area",
+        "lead": "Events",
+        "direction": "Tribe Leaders: share testimonies and practice the motto",
+        "outcome": "Stories worthy of being told",
+        "flag": ""
+      }
+    },
+    {
+      "n": 98,
+      "ref": "94",
+      "day": 4,
+      "start": "12:30",
+      "end": "13:00",
+      "durMin": 30,
+      "absStart": 5070,
+      "absEnd": 5100,
+      "section": "Logistics Op",
+      "sectionColor": "#1E7A5F",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT"
+      ],
+      "tasks": {
+        "LOG": "Get inside the church",
+        "ADM": "Get inside the church",
+        "KIT": "Get inside the church",
+        "INT": "Get inside the church",
+        "WOR": "Get inside the church",
+        "HAK": "Get inside the church",
+        "TRB": "Gather testimonies and send to the Director",
+        "VOZ": "Stay with the travelers, get them ready to enter the church"
+      },
+      "en": {
+        "block": "Return & Welcome Celebration",
+        "section": "Logistics Op",
+        "activity": "Arrival at Reception / line up the families",
+        "lead": "Events and Voice",
+        "direction": "Events Coordinator, Tribe Leaders",
+        "outcome": "",
+        "flag": ""
+      }
+    },
+    {
+      "n": 99,
+      "ref": "95",
+      "day": 4,
+      "start": "13:00",
+      "end": "13:15",
+      "durMin": 15,
+      "absStart": 5100,
+      "absEnd": 5115,
+      "section": "Teaching",
+      "sectionColor": "#13243B",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Get inside the church",
+        "ADM": "Get inside the church",
+        "KIT": "Get inside the church",
+        "INT": "Get inside the church",
+        "WOR": "Get inside the church",
+        "HAK": "Get inside the church",
+        "TRB": "Participate in the Cerimony",
+        "VOZ": "Get inside the church"
+      },
+      "en": {
+        "block": "Return & Welcome Celebration",
+        "section": "Teaching",
+        "activity": "Message — transformation continues The world has not changed",
+        "lead": "Pastor Jeff",
+        "direction": "",
+        "outcome": "They are ready for the challenges they will encounter",
+        "flag": ""
+      }
+    },
+    {
+      "n": 100,
+      "ref": "96",
+      "day": 4,
+      "start": "13:15",
+      "end": "13:30",
+      "durMin": 15,
+      "absStart": 5115,
+      "absEnd": 5130,
+      "section": "Ceremony",
+      "sectionColor": "#E8821E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "EVT"
+      ],
+      "tasks": {
+        "LOG": "Participate in the Cerimony",
+        "ADM": "Participate in the Cerimony",
+        "KIT": "Participate in the Cerimony",
+        "INT": "Participate in the Cerimony",
+        "WOR": "Participate in the Cerimony",
+        "HAK": "Participate in the Cerimony",
+        "TRB": "Participate in the Cerimony",
+        "VOZ": "Participate in the Cerimony"
+      },
+      "en": {
+        "block": "Return & Welcome Celebration",
+        "section": "Ceremony",
+        "activity": "Entrance to Reception",
+        "lead": "Events",
+        "direction": "Well formed",
+        "outcome": "",
+        "flag": ""
+      }
+    },
+    {
+      "n": 101,
+      "ref": "97",
+      "day": 4,
+      "start": "13:30",
+      "end": "14:20",
+      "durMin": 50,
+      "absStart": 5130,
+      "absEnd": 5180,
+      "section": "Ceremony",
+      "sectionColor": "#E8821E",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ",
+        "DIR"
+      ],
+      "tasks": {
+        "LOG": "Participate in the Cerimony",
+        "ADM": "Participate in the Cerimony",
+        "KIT": "Participate in the Cerimony",
+        "INT": "Participate in the Cerimony",
+        "WOR": "Participate in the Cerimony",
+        "HAK": "Participate in the Cerimony",
+        "TRB": "Participate in the Cerimony",
+        "VOZ": "Participate in the Cerimony"
+      },
+      "en": {
+        "block": "Return & Welcome Celebration",
+        "section": "Ceremony",
+        "activity": "Celebration of the new Legendaries",
+        "lead": "Pastor Jeff / Gus",
+        "direction": "DIRECTORS / MINISTRY",
+        "outcome": "Families crying tears of joy",
+        "flag": ""
+      }
+    },
+    {
+      "n": 102,
+      "ref": "98",
+      "day": 4,
+      "start": "14:20",
+      "end": "14:40",
+      "durMin": 20,
+      "absStart": 5180,
+      "absEnd": 5200,
+      "section": "Registration",
+      "sectionColor": "#4A6FA5",
+      "depts": [
+        "LOG",
+        "ADM",
+        "KIT",
+        "INT",
+        "WOR",
+        "HAK",
+        "TRB",
+        "VOZ"
+      ],
+      "tasks": {
+        "LOG": "Help clean and organize the church",
+        "ADM": "Return all belongings",
+        "KIT": "Help clean and organize the church",
+        "INT": "Help clean and organize the church",
+        "WOR": "Help clean and organize the church",
+        "HAK": "Help clean and organize the church",
+        "TRB": "Return all belongings",
+        "VOZ": "Help clean and organize the church"
+      },
+      "en": {
+        "block": "Return & Welcome Celebration",
+        "section": "Registration",
+        "activity": "Return personal belongings",
+        "lead": "ADM",
+        "direction": "ADM",
+        "outcome": "Return all belongings",
+        "flag": ""
+      }
+    }
+  ]
+}
