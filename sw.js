@@ -1,5 +1,5 @@
 const CACHE = 'top000-github-pages-v2';
-const FILES = ['./','index.html','app.css','app.js','config.js','data/rundown.json','manifest.webmanifest','icons/icon.svg','assets/braveheart.svg','assets/legendarios.svg','assets/top.svg'];
+const FILES = ['./','index.html','app.css','app.js','config.js','data/rundown.json','manifest.webmanifest','icons/icon.svg','assets/eagle.svg','assets/legendarios.svg','assets/top.svg'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener('fetch', e => {
