@@ -1,20 +1,20 @@
 {
   "event": {
-    "name": "BRAVE HEART TOP 000",
+    "name": "Eagle TOP 2000",
     "rise": "RISE",
-    "location": "Charlotte, North Carolina",
+    "location": "Atlanta, GA",
     "dates": {
-      "en": "October 15–18, 2026"
+      "en": "March 11–14, 2027"
     },
     "timezone": "America/New_York",
     "dayDates": {
-      "1": "2026-10-15",
-      "2": "2026-10-16",
-      "3": "2026-10-17",
-      "4": "2026-10-18"
+      "1": "2027-03-11",
+      "2": "2027-03-12",
+      "3": "2027-03-13",
+      "4": "2027-03-14"
     },
-    "source": "V4 — TOP BRAVE HEART Rundown — TOP 000 (Corrected English)",
-    "version": "2026-10-13T12:32:34Z",
+    "source": "V4 — Eagle Rundown — TOP 2000 (Corrected English)",
+    "version": "2027-03-13T12:32:34Z",
     "revision": 4
   },
   "languages": [
@@ -66,25 +66,25 @@
     "1": {
       "en": {
         "label": "Day 1",
-        "date": "Thursday, October 15, 2026"
+        "date": "Thursday, March 11, 2027"
       }
     },
     "2": {
       "en": {
         "label": "Day 2",
-        "date": "Friday, October 16, 2026"
+        "date": "Friday, March 11, 2027"
       }
     },
     "3": {
       "en": {
         "label": "Day 3",
-        "date": "Saturday, October 17, 2026"
+        "date": "Saturday, March 11, 2027"
       }
     },
     "4": {
       "en": {
         "label": "Day 4",
-        "date": "Sunday, October 18, 2026"
+        "date": "Sunday, March 11, 2027"
       }
     }
   },
@@ -326,7 +326,7 @@
         "block": "Setup & Server Opening",
         "section": "Ceremony",
         "activity": "(Mandatory) Servers Welcome and Official TOP Opening",
-        "lead": "Pastor Jeff / Gus",
+        "lead": "Pastor Napoleao / Elias",
         "direction": "Leadership, support from admin, communion",
         "outcome": "Open the TOP and Prepare the Servers to the TOP",
         "flag": ""
@@ -575,7 +575,7 @@
         "block": "Safety, Welcome & Dinner",
         "section": "Ceremony",
         "activity": "WELCOME SPEECH",
-        "lead": "Gus",
+        "lead": "Pr Raph",
         "direction": "GIVE THE WELCOME",
         "outcome": "ENSURE THEY UNDERSTAND THE ESSENCE",
         "flag": ""
@@ -1034,7 +1034,7 @@
         "block": "Night March to the Cemetery",
         "section": "Teaching",
         "activity": "Take Your Opportunity",
-        "lead": "Juan Tamayo",
+        "lead": "Mario",
         "direction": "BE IMPACTED BY THE DREAMS THEY ARE LEAVING BEHIND",
         "outcome": "MAY THEY TAKE ADVANTAGE OF THEIR OPPORTUNITIES",
         "flag": ""
@@ -1119,7 +1119,7 @@
         "block": "Night March to the Cemetery",
         "section": "Teaching",
         "activity": "Enjoy the Journey",
-        "lead": "Henrique",
+        "lead": "Israel",
         "direction": "BE IMPACTED BY ENJOYING THE JOURNEY WITH JESUS",
         "outcome": "MAY THEY UNDERSTAND THAT ENJOYING THE JOURNEY MEANS ENJOYING JESUS",
         "flag": ""
@@ -1328,7 +1328,7 @@
         "block": "Morning Prayer & Our Daily Bread",
         "section": "Ministry",
         "activity": "Morning Prayer",
-        "lead": "Pastor Jeff",
+        "lead": "Pastor Toninho",
         "direction": "Encourage and pray for the team",
         "outcome": "Lift their spirists and teach that our nurishment comes from God",
         "flag": "Numbered 26 in the source, same as the next cue. Runs 45 minutes before the Travelers are woken, and overlaps Day 1's General Silence — Servers only."
@@ -1451,7 +1451,7 @@
         "block": "Morning Prayer & Our Daily Bread",
         "section": "Ceremony",
         "activity": "Our Daily Bread",
-        "lead": "Pastor Jeff",
+        "lead": "Pastor Elias",
         "direction": "Logistics to provide a basket with bread / Worship Team",
         "outcome": "Learn to be thankful for our daily bread",
         "flag": ""
@@ -1662,7 +1662,7 @@
         "block": "Lake Crossing & Radical Purity",
         "section": "Teaching",
         "activity": "Station# 1, Radical Purity (2 Families at the time)",
-        "lead": "Eric",
+        "lead": "Mario",
         "direction": "After the water crossing while they are wet",
         "outcome": "For them to clean themselves internally",
         "flag": "Station 2 does not appear anywhere in the rundown — it jumps from Station 1 to Station 3."
@@ -1786,7 +1786,7 @@
         "block": "Midday Walk & Choose Your Path",
         "section": "Teaching",
         "activity": "Choose your Path (2 Families at the time)",
-        "lead": "Ronny Camillo",
+        "lead": "Israel",
         "direction": "Understand life is made of choices",
         "outcome": "Learn that God is the way, the truth and life.",
         "flag": ""
@@ -1911,7 +1911,7 @@
         "block": "The Abandoned House & Naaman",
         "section": "Teaching",
         "activity": "The Abandoned House",
-        "lead": "Pastor Jeff",
+        "lead": "Pastor Napoleon",
         "direction": "LOGISTICS TO COME FROM THE OPPOSITE DIRECTION TO SET UP THE ABANDONED HOUSE",
         "outcome": "remind the of the responsabilities at home",
         "flag": ""
@@ -1995,7 +1995,7 @@
         "block": "The Abandoned House & Naaman",
         "section": "Teaching",
         "activity": "Station #3: NAAMAN PARABLE",
-        "lead": "Pastor Jeff",
+        "lead": "Pastor Raph",
         "direction": "Everyone together for this teaching.",
         "outcome": "Cleanse everyone from all pestelences",
         "flag": ""
@@ -2077,7 +2077,7 @@
         "block": "Hunger Games",
         "section": "Teaching",
         "activity": "Arrival at campsite (2) HUNTER PARABLE — HUNGER GAMES",
-        "lead": "Ronny Camillo",
+        "lead": "Mario",
         "direction": "Logistics and ADM ready with prizes and ropes All teams supporting",
         "outcome": "Awaken the good hunter",
         "flag": ""
@@ -2160,7 +2160,7 @@
         "block": "Hunger Games",
         "section": "Teaching",
         "activity": "The Thread",
-        "lead": "Gus",
+        "lead": "Israel",
         "direction": "ADM to be ready with the THREADS; all teams supporting",
         "outcome": "Understand that small sins are a great trap",
         "flag": ""
@@ -2368,7 +2368,7 @@
         "block": "Servers' Vigil & Midnight Prayer",
         "section": "Ministry",
         "activity": "MIDNIGHT PRAYER — CAMPFIRE",
-        "lead": "Pastor Jeff / Gus",
+        "lead": "Pastor Elias",
         "direction": "By the Fore",
         "outcome": "Midnight Prayer Teaching",
         "flag": ""
@@ -2619,7 +2619,7 @@
         "block": "Reveille, Sneaker Awards & Teachings",
         "section": "Teaching",
         "activity": "AVOIDING RESPONSIBILITY — EVERYONE TOGETHER",
-        "lead": "Thiago Cuppertino",
+        "lead": "Mario",
         "direction": "All teams supporting",
         "outcome": "RESPONSIBILITY AVOIDERS.",
         "flag": ""
@@ -2701,7 +2701,7 @@
         "block": "Reveille, Sneaker Awards & Teachings",
         "section": "Teaching",
         "activity": "GIVE ME THIS MOUNTAIN — EVERYONE TOGETHER",
-        "lead": "Karim",
+        "lead": "Pastor Marcos",
         "direction": "All teams supporting",
         "outcome": "\"GIVE ME THIS MOUNTAIN\"",
         "flag": "Also numbered 55 in the source — duplicate of the previous cue. Starts at the same time as the walk before it."
@@ -2951,7 +2951,7 @@
         "block": "The Sentinel & the Extra Mile",
         "section": "Teaching",
         "activity": "SENTINEL (FLAG) — EVERYONE TOGETHER",
-        "lead": "Dani Tavarez",
+        "lead": "Mario",
         "direction": "Gather the Flags",
         "outcome": "Teach to protect the GAP",
         "flag": ""
@@ -3158,7 +3158,7 @@
         "block": "Two Are Better Than One & the Mud Fight",
         "section": "Teaching",
         "activity": "TWO ARE BETTER THAN ONE",
-        "lead": "Dani / Rob",
+        "lead": "Daniel",
         "direction": "We need to stay together to protect one another",
         "outcome": "We are stronger together",
         "flag": ""
@@ -3367,7 +3367,7 @@
         "block": "Simon of Cyrene & the Cross",
         "section": "Teaching",
         "activity": "SIMON OF CYRENE — EVERYONE TOGETHER",
-        "lead": "Henrique",
+        "lead": "Joao Paulo",
         "direction": "Get them ready to walk",
         "outcome": "Direct them to their logs",
         "flag": ""
@@ -3533,7 +3533,7 @@
         "block": "Simon of Cyrene & the Cross",
         "section": "Ceremony",
         "activity": "SURRENDER EVERYTHING",
-        "lead": "Marcelo Costa",
+        "lead": "Joao Paulo",
         "direction": "Surrender everything to Christ and trust that all provision comes from Him",
         "outcome": "Leave all addictions, sins, desires, and the old self at the cross",
         "flag": ""
@@ -3574,7 +3574,7 @@
         "block": "Simon of Cyrene & the Cross",
         "section": "Ceremony",
         "activity": "OFFER YOUR PROVISION",
-        "lead": "Marcelo Costa",
+        "lead": "Pastor Raph",
         "direction": "Surrender everything to Christ and trust that all provision comes from Him",
         "outcome": "Leave all your provision at the Cross",
         "flag": ""
@@ -4076,7 +4076,7 @@
         "block": "Breakdown & Departure",
         "section": "Teaching",
         "activity": "Morning message / What happens on the mountain stays on the mountain. Expansion and Manifesto",
-        "lead": "Gus",
+        "lead": "Pastor Elias",
         "direction": "We depend on everyone to keep the movement moving forward",
         "outcome": "Return to serve",
         "flag": ""
@@ -4369,7 +4369,7 @@
         "block": "Return & Welcome Celebration",
         "section": "Teaching",
         "activity": "Message — transformation continues The world has not changed",
-        "lead": "Pastor Jeff",
+        "lead": "Pastor Napoleon",
         "direction": "",
         "outcome": "They are ready for the challenges they will encounter",
         "flag": ""
@@ -4453,7 +4453,7 @@
         "block": "Return & Welcome Celebration",
         "section": "Ceremony",
         "activity": "Celebration of the new Legendaries",
-        "lead": "Pastor Jeff / Gus",
+        "lead": "Pastor Elias",
         "direction": "DIRECTORS / MINISTRY",
         "outcome": "Families crying tears of joy",
         "flag": ""
